@@ -10,8 +10,26 @@ The bioassay and relevant SMILES mappings were downloaded from the PubChem site 
 
 ### Setup
 
-Python 3.6 as well as Anaconda 4.4.0 is required. You can setup a environment via
+Python 3.6 as well as Anaconda 4.4.0 is required. The RDKit library is also required (installed via the below steps). You can setup a environment via either installing each conda dependency sequentially, or useing an environment file
+
+To install via environment file:
 
 ```
 conda env create -f environment.yml
+source activate pubchem-sklearn
 ```
+
+Or to install manually:
+
+```
+conda create -n pubchem-sklearn anaconda
+source activate pubchem-sklearn
+conda install -y -q -c rdkit rdkit=2017.03.3
+conda install nb_conda
+```
+
+### Usage
+
+Load the `pcba_analysis.ipynb` file via the command `jupyter notebook`
+
+After running all cells you will see the prediction accuracy of approximately 92% for the held-out test set on the sample bioassay 1030 (pubchem AID 1030)
