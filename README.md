@@ -30,6 +30,6 @@ conda install nb_conda
 
 ### Usage
 
-Load the `pcba_analysis.ipynb` file via the command `jupyter notebook`
+Load the `pubchem_bioassay_sklearn.ipynb` file via the command `jupyter notebook`
 
 After running all cells you will see the prediction accuracy of approximately 92% for the held-out test set on the sample bioassay 1030 (pubchem AID 1030)
