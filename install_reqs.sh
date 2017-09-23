@@ -1,4 +1,8 @@
 #! /bin/bash
+
+# Required by rdkit
+sudo apt-get install -y libxmlrender-dev
+
 conda env create -n pubchem-sklearn
 source activate pubchem-sklearn
 conda install -y -q -c rdkit rdkit=2017.03.3
