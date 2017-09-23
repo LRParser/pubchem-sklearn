@@ -1,5 +1,8 @@
 #! /bin/bash
 
+cd ~
+source activate pubchem-sklearn
+
 # Required by rdkit
 sudo apt-get install -y libxrender-dev
 
@@ -9,3 +12,8 @@ conda install -y -q -c rdkit rdkit=2017.03.3
 conda install -y -q -c glemaitre imbalanced-learn
 conda install -y -q -c conda-forge keras
 conda install -y -q -c anaconda tensorflow-gpu
+
+cd ~
+git clone https://github.com/hyperopt/hyperopt-sklearn.git
+cd hyperopt-sklearn
+pip install -e .
