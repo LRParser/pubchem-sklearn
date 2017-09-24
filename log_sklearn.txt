@@ -1,0 +1,436 @@
+2017-09-23 22:01:13,055 - INFO - Compute classes statistics ...
+2017-09-23 22:01:13,060 - DEBUG - The number of classes is 2
+2017-09-23 22:01:13,073 - DEBUG - Shall we raise a warning: False
+2017-09-23 22:01:13,133 - INFO - 2 classes detected: Counter({0: 204253, 1: 16111})
+2017-09-23 22:01:15,089 - INFO - Under-sampling performed: Counter({1: 16111, 0: 16111})
+2017-09-24 07:26:45,454 - DEBUG - Processed index: 0
+2017-09-24 07:26:45,454 - DEBUG - Processed index: 0
+2017-09-24 07:26:52,460 - DEBUG - Processed index: 10000
+2017-09-24 07:26:52,460 - DEBUG - Processed index: 10000
+2017-09-24 07:26:59,208 - DEBUG - Processed index: 20000
+2017-09-24 07:26:59,208 - DEBUG - Processed index: 20000
+2017-09-24 07:27:06,197 - DEBUG - Processed index: 30000
+2017-09-24 07:27:06,197 - DEBUG - Processed index: 30000
+2017-09-24 07:27:13,288 - DEBUG - Processed index: 40000
+2017-09-24 07:27:13,288 - DEBUG - Processed index: 40000
+2017-09-24 07:27:20,134 - DEBUG - Processed index: 50000
+2017-09-24 07:27:20,134 - DEBUG - Processed index: 50000
+2017-09-24 07:27:26,926 - DEBUG - Processed index: 60000
+2017-09-24 07:27:26,926 - DEBUG - Processed index: 60000
+2017-09-24 07:27:33,358 - DEBUG - Processed index: 70000
+2017-09-24 07:27:33,358 - DEBUG - Processed index: 70000
+2017-09-24 07:27:40,400 - DEBUG - Processed index: 80000
+2017-09-24 07:27:40,400 - DEBUG - Processed index: 80000
+2017-09-24 07:27:47,278 - DEBUG - Processed index: 90000
+2017-09-24 07:27:47,278 - DEBUG - Processed index: 90000
+2017-09-24 07:27:54,228 - DEBUG - Processed index: 100000
+2017-09-24 07:27:54,228 - DEBUG - Processed index: 100000
+2017-09-24 07:28:01,014 - DEBUG - Processed index: 110000
+2017-09-24 07:28:01,014 - DEBUG - Processed index: 110000
+2017-09-24 07:28:07,951 - DEBUG - Processed index: 120000
+2017-09-24 07:28:07,951 - DEBUG - Processed index: 120000
+2017-09-24 07:28:15,161 - DEBUG - Processed index: 130000
+2017-09-24 07:28:15,161 - DEBUG - Processed index: 130000
+2017-09-24 07:28:22,266 - DEBUG - Processed index: 140000
+2017-09-24 07:28:22,266 - DEBUG - Processed index: 140000
+2017-09-24 07:28:29,277 - DEBUG - Processed index: 150000
+2017-09-24 07:28:29,277 - DEBUG - Processed index: 150000
+2017-09-24 07:28:36,231 - DEBUG - Processed index: 160000
+2017-09-24 07:28:36,231 - DEBUG - Processed index: 160000
+2017-09-24 07:28:43,002 - DEBUG - Processed index: 170000
+2017-09-24 07:28:43,002 - DEBUG - Processed index: 170000
+2017-09-24 07:28:49,614 - DEBUG - Processed index: 180000
+2017-09-24 07:28:49,614 - DEBUG - Processed index: 180000
+2017-09-24 07:28:56,296 - DEBUG - Processed index: 190000
+2017-09-24 07:28:56,296 - DEBUG - Processed index: 190000
+2017-09-24 07:29:03,122 - DEBUG - Processed index: 200000
+2017-09-24 07:29:03,122 - DEBUG - Processed index: 200000
+2017-09-24 07:29:09,967 - DEBUG - Processed index: 210000
+2017-09-24 07:29:09,967 - DEBUG - Processed index: 210000
+2017-09-24 07:29:15,761 - DEBUG - Molecule failed featurization
+2017-09-24 07:29:15,761 - DEBUG - Molecule failed featurization
+2017-09-24 07:29:15,763 - DEBUG - 218052
+2017-09-24 07:29:15,763 - DEBUG - 218052
+2017-09-24 07:29:17,094 - DEBUG - Processed index: 220000
+2017-09-24 07:29:17,094 - DEBUG - Processed index: 220000
+2017-09-24 07:29:19,022 - DEBUG - Processed all, saving non-sampled
+2017-09-24 07:29:19,022 - DEBUG - Processed all, saving non-sampled
+2017-09-24 07:29:43,971 - DEBUG - Sampling
+2017-09-24 07:29:43,971 - DEBUG - Sampling
+2017-09-24 07:29:44,353 - INFO - Compute classes statistics ...
+2017-09-24 07:29:44,353 - INFO - Compute classes statistics ...
+2017-09-24 07:29:44,358 - DEBUG - The number of classes is 2
+2017-09-24 07:29:44,358 - DEBUG - The number of classes is 2
+2017-09-24 07:29:44,362 - DEBUG - Shall we raise a warning: False
+2017-09-24 07:29:44,362 - DEBUG - Shall we raise a warning: False
+2017-09-24 07:29:44,404 - INFO - 2 classes detected: Counter({0: 204253, 1: 16111})
+2017-09-24 07:29:44,404 - INFO - 2 classes detected: Counter({0: 204253, 1: 16111})
+2017-09-24 07:29:46,272 - INFO - Under-sampling performed: Counter({1: 16111, 0: 16111})
+2017-09-24 07:29:46,272 - INFO - Under-sampling performed: Counter({1: 16111, 0: 16111})
+2017-09-24 07:29:46,274 - DEBUG - Processed all, pickling
+2017-09-24 07:29:46,274 - DEBUG - Processed all, pickling
+2017-09-24 08:48:50,455 - DEBUG - Processed index: 0
+2017-09-24 08:48:50,455 - DEBUG - Processed index: 0
+2017-09-24 08:48:50,455 - DEBUG - Processed index: 0
+2017-09-24 08:48:58,676 - DEBUG - Processed index: 10000
+2017-09-24 08:48:58,676 - DEBUG - Processed index: 10000
+2017-09-24 08:48:58,676 - DEBUG - Processed index: 10000
+2017-09-24 08:49:06,549 - DEBUG - Processed index: 20000
+2017-09-24 08:49:06,549 - DEBUG - Processed index: 20000
+2017-09-24 08:49:06,549 - DEBUG - Processed index: 20000
+2017-09-24 08:49:14,833 - DEBUG - Processed index: 30000
+2017-09-24 08:49:14,833 - DEBUG - Processed index: 30000
+2017-09-24 08:49:14,833 - DEBUG - Processed index: 30000
+2017-09-24 08:49:22,242 - DEBUG - Processed index: 40000
+2017-09-24 08:49:22,242 - DEBUG - Processed index: 40000
+2017-09-24 08:49:22,242 - DEBUG - Processed index: 40000
+2017-09-24 08:49:29,041 - DEBUG - Processed index: 50000
+2017-09-24 08:49:29,041 - DEBUG - Processed index: 50000
+2017-09-24 08:49:29,041 - DEBUG - Processed index: 50000
+2017-09-24 08:49:35,909 - DEBUG - Processed index: 60000
+2017-09-24 08:49:35,909 - DEBUG - Processed index: 60000
+2017-09-24 08:49:35,909 - DEBUG - Processed index: 60000
+2017-09-24 08:49:42,422 - DEBUG - Processed index: 70000
+2017-09-24 08:49:42,422 - DEBUG - Processed index: 70000
+2017-09-24 08:49:42,422 - DEBUG - Processed index: 70000
+2017-09-24 08:49:49,347 - DEBUG - Processed index: 80000
+2017-09-24 08:49:49,347 - DEBUG - Processed index: 80000
+2017-09-24 08:49:49,347 - DEBUG - Processed index: 80000
+2017-09-24 08:49:56,149 - DEBUG - Processed index: 90000
+2017-09-24 08:49:56,149 - DEBUG - Processed index: 90000
+2017-09-24 08:49:56,149 - DEBUG - Processed index: 90000
+2017-09-24 08:50:03,292 - DEBUG - Processed index: 100000
+2017-09-24 08:50:03,292 - DEBUG - Processed index: 100000
+2017-09-24 08:50:03,292 - DEBUG - Processed index: 100000
+2017-09-24 08:50:10,213 - DEBUG - Processed index: 110000
+2017-09-24 08:50:10,213 - DEBUG - Processed index: 110000
+2017-09-24 08:50:10,213 - DEBUG - Processed index: 110000
+2017-09-24 08:50:17,212 - DEBUG - Processed index: 120000
+2017-09-24 08:50:17,212 - DEBUG - Processed index: 120000
+2017-09-24 08:50:17,212 - DEBUG - Processed index: 120000
+2017-09-24 08:50:24,540 - DEBUG - Processed index: 130000
+2017-09-24 08:50:24,540 - DEBUG - Processed index: 130000
+2017-09-24 08:50:24,540 - DEBUG - Processed index: 130000
+2017-09-24 08:50:31,717 - DEBUG - Processed index: 140000
+2017-09-24 08:50:31,717 - DEBUG - Processed index: 140000
+2017-09-24 08:50:31,717 - DEBUG - Processed index: 140000
+2017-09-24 08:50:38,931 - DEBUG - Processed index: 150000
+2017-09-24 08:50:38,931 - DEBUG - Processed index: 150000
+2017-09-24 08:50:38,931 - DEBUG - Processed index: 150000
+2017-09-24 08:50:46,192 - DEBUG - Processed index: 160000
+2017-09-24 08:50:46,192 - DEBUG - Processed index: 160000
+2017-09-24 08:50:46,192 - DEBUG - Processed index: 160000
+2017-09-24 08:50:53,238 - DEBUG - Processed index: 170000
+2017-09-24 08:50:53,238 - DEBUG - Processed index: 170000
+2017-09-24 08:50:53,238 - DEBUG - Processed index: 170000
+2017-09-24 08:51:00,056 - DEBUG - Processed index: 180000
+2017-09-24 08:51:00,056 - DEBUG - Processed index: 180000
+2017-09-24 08:51:00,056 - DEBUG - Processed index: 180000
+2017-09-24 08:51:06,840 - DEBUG - Processed index: 190000
+2017-09-24 08:51:06,840 - DEBUG - Processed index: 190000
+2017-09-24 08:51:06,840 - DEBUG - Processed index: 190000
+2017-09-24 08:51:13,799 - DEBUG - Processed index: 200000
+2017-09-24 08:51:13,799 - DEBUG - Processed index: 200000
+2017-09-24 08:51:13,799 - DEBUG - Processed index: 200000
+2017-09-24 08:51:20,780 - DEBUG - Processed index: 210000
+2017-09-24 08:51:20,780 - DEBUG - Processed index: 210000
+2017-09-24 08:51:20,780 - DEBUG - Processed index: 210000
+2017-09-24 08:51:26,804 - DEBUG - Molecule failed featurization
+2017-09-24 08:51:26,804 - DEBUG - Molecule failed featurization
+2017-09-24 08:51:26,804 - DEBUG - Molecule failed featurization
+2017-09-24 08:51:26,807 - DEBUG - 218052
+2017-09-24 08:51:26,807 - DEBUG - 218052
+2017-09-24 08:51:26,807 - DEBUG - 218052
+2017-09-24 08:51:28,131 - DEBUG - Processed index: 220000
+2017-09-24 08:51:28,131 - DEBUG - Processed index: 220000
+2017-09-24 08:51:28,131 - DEBUG - Processed index: 220000
+2017-09-24 08:51:30,097 - DEBUG - Processed all, saving non-sampled
+2017-09-24 08:51:30,097 - DEBUG - Processed all, saving non-sampled
+2017-09-24 08:51:30,097 - DEBUG - Processed all, saving non-sampled
+2017-09-24 08:51:54,101 - DEBUG - Sampling
+2017-09-24 08:51:54,101 - DEBUG - Sampling
+2017-09-24 08:51:54,101 - DEBUG - Sampling
+2017-09-24 08:51:54,486 - INFO - Compute classes statistics ...
+2017-09-24 08:51:54,486 - INFO - Compute classes statistics ...
+2017-09-24 08:51:54,486 - INFO - Compute classes statistics ...
+2017-09-24 08:51:54,492 - DEBUG - The number of classes is 2
+2017-09-24 08:51:54,492 - DEBUG - The number of classes is 2
+2017-09-24 08:51:54,492 - DEBUG - The number of classes is 2
+2017-09-24 08:51:54,497 - DEBUG - Shall we raise a warning: False
+2017-09-24 08:51:54,497 - DEBUG - Shall we raise a warning: False
+2017-09-24 08:51:54,497 - DEBUG - Shall we raise a warning: False
+2017-09-24 08:51:54,546 - INFO - 2 classes detected: Counter({0: 204253, 1: 16111})
+2017-09-24 08:51:54,546 - INFO - 2 classes detected: Counter({0: 204253, 1: 16111})
+2017-09-24 08:51:54,546 - INFO - 2 classes detected: Counter({0: 204253, 1: 16111})
+2017-09-24 08:51:56,473 - INFO - Under-sampling performed: Counter({1: 16111, 0: 16111})
+2017-09-24 08:51:56,473 - INFO - Under-sampling performed: Counter({1: 16111, 0: 16111})
+2017-09-24 08:51:56,473 - INFO - Under-sampling performed: Counter({1: 16111, 0: 16111})
+2017-09-24 08:51:56,476 - DEBUG - Processed all, pickling
+2017-09-24 08:51:56,476 - DEBUG - Processed all, pickling
+2017-09-24 08:51:56,476 - DEBUG - Processed all, pickling
+2017-09-24 10:03:40,712 - INFO - Test
+2017-09-24 10:03:40,712 - INFO - Test
+2017-09-24 10:03:40,712 - INFO - Test
+2017-09-24 10:03:40,712 - INFO - Test
+2017-09-24 10:03:40,712 - INFO - Test
+2017-09-24 10:03:40,712 - INFO - Test
+2017-09-24 10:03:56,409 - INFO - Test
+2017-09-24 10:03:56,409 - INFO - Test
+2017-09-24 10:03:56,409 - INFO - Test
+2017-09-24 10:03:56,409 - INFO - Test
+2017-09-24 10:03:56,409 - INFO - Test
+2017-09-24 10:03:56,409 - INFO - Test
+2017-09-24 10:03:56,409 - INFO - Test
+2017-09-24 10:04:05,084 - INFO - Test
+2017-09-24 10:04:05,084 - INFO - Test
+2017-09-24 10:04:05,084 - INFO - Test
+2017-09-24 10:04:05,084 - INFO - Test
+2017-09-24 10:04:05,084 - INFO - Test
+2017-09-24 10:04:05,084 - INFO - Test
+2017-09-24 10:04:05,084 - INFO - Test
+2017-09-24 10:04:05,084 - INFO - Test
+2017-09-24 10:07:34,687 - INFO - Test
+2017-09-24 10:07:34,687 - INFO - Test
+2017-09-24 10:07:34,687 - INFO - Test
+2017-09-24 10:07:34,687 - INFO - Test
+2017-09-24 10:07:34,687 - INFO - Test
+2017-09-24 10:07:34,687 - INFO - Test
+2017-09-24 10:07:34,687 - INFO - Test
+2017-09-24 10:07:34,687 - INFO - Test
+2017-09-24 10:07:34,687 - INFO - Test
+2017-09-24 10:07:34,687 - INFO - Test
+2017-09-24 10:11:24,306 - DEBUG - Processed index: 0
+2017-09-24 10:11:31,431 - DEBUG - Processed index: 10000
+2017-09-24 10:11:38,585 - DEBUG - Processed index: 20000
+2017-09-24 10:11:46,067 - DEBUG - Processed index: 30000
+2017-09-24 10:11:53,638 - DEBUG - Processed index: 40000
+2017-09-24 10:12:00,728 - DEBUG - Processed index: 50000
+2017-09-24 10:12:07,849 - DEBUG - Processed index: 60000
+2017-09-24 10:12:14,558 - DEBUG - Processed index: 70000
+2017-09-24 10:12:21,608 - DEBUG - Processed index: 80000
+2017-09-24 10:12:28,503 - DEBUG - Processed index: 90000
+2017-09-24 10:12:35,737 - DEBUG - Processed index: 100000
+2017-09-24 10:12:42,599 - DEBUG - Processed index: 110000
+2017-09-24 10:12:49,661 - DEBUG - Processed index: 120000
+2017-09-24 10:12:57,275 - DEBUG - Processed index: 130000
+2017-09-24 10:13:04,612 - DEBUG - Processed index: 140000
+2017-09-24 10:13:11,845 - DEBUG - Processed index: 150000
+2017-09-24 10:13:19,194 - DEBUG - Processed index: 160000
+2017-09-24 10:13:26,479 - DEBUG - Processed index: 170000
+2017-09-24 10:13:33,545 - DEBUG - Processed index: 180000
+2017-09-24 10:13:40,562 - DEBUG - Processed index: 190000
+2017-09-24 10:13:47,667 - DEBUG - Processed index: 200000
+2017-09-24 10:13:54,789 - DEBUG - Processed index: 210000
+2017-09-24 10:14:00,978 - DEBUG - Molecule failed featurization
+2017-09-24 10:14:00,979 - DEBUG - 218052
+2017-09-24 10:14:02,349 - DEBUG - Processed index: 220000
+2017-09-24 10:14:04,378 - DEBUG - Processed all, saving non-sampled
+2017-09-24 10:14:29,071 - DEBUG - Sampling
+2017-09-24 10:14:29,596 - INFO - Compute classes statistics ...
+2017-09-24 10:14:29,601 - DEBUG - The number of classes is 2
+2017-09-24 10:14:29,605 - DEBUG - Shall we raise a warning: False
+2017-09-24 10:14:29,648 - INFO - 2 classes detected: Counter({0: 204253, 1: 16111})
+2017-09-24 10:14:31,922 - INFO - Under-sampling performed: Counter({1: 16111, 0: 16111})
+2017-09-24 10:14:31,924 - DEBUG - Processed all, pickling
+2017-09-24 10:14:49,793 - DEBUG - Computed roc_auc score of: 0.6342477656405163
+2017-09-24 10:14:49,799 - DEBUG -              precision    recall  f1-score   support
+
+          0       0.63      0.63      0.63      8056
+          1       0.63      0.64      0.63      8056
+
+avg / total       0.63      0.63      0.63     16112
+
+2017-09-24 10:15:03,344 - DEBUG - Computed roc_auc score of: 0.6350093109869646
+2017-09-24 10:15:03,349 - DEBUG -              precision    recall  f1-score   support
+
+          0       0.64      0.62      0.63      8055
+          1       0.63      0.65      0.64      8055
+
+avg / total       0.64      0.64      0.63     16110
+
+2017-09-24 10:15:03,350 - DEBUG - Average roc_auc score is: 0.6346285383137404
+2017-09-24 10:24:28,672 - DEBUG - Computed roc_auc score of: 0.6899205561072493
+2017-09-24 10:24:28,677 - DEBUG -              precision    recall  f1-score   support
+
+          0       0.68      0.71      0.70      8056
+          1       0.70      0.67      0.68      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 10:36:06,939 - DEBUG - Computed roc_auc score of: 0.6929857231533209
+2017-09-24 10:36:06,944 - DEBUG -              precision    recall  f1-score   support
+
+          0       0.70      0.67      0.69      8055
+          1       0.69      0.71      0.70      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 10:36:06,945 - DEBUG - Average roc_auc score is: 0.6914531396302851
+2017-09-24 10:36:15,458 - DEBUG - Computed roc_auc score of: 0.7089126117179742
+2017-09-24 10:36:15,465 - DEBUG -              precision    recall  f1-score   support
+
+          0       0.70      0.74      0.72      8056
+          1       0.72      0.68      0.70      8056
+
+avg / total       0.71      0.71      0.71     16112
+
+2017-09-24 10:36:23,743 - DEBUG - Computed roc_auc score of: 0.7093109869646183
+2017-09-24 10:36:23,747 - DEBUG -              precision    recall  f1-score   support
+
+          0       0.70      0.72      0.71      8055
+          1       0.72      0.69      0.70      8055
+
+avg / total       0.71      0.71      0.71     16110
+
+2017-09-24 10:36:23,749 - DEBUG - Average roc_auc score is: 0.7091117993412962
+2017-09-24 10:36:24,408 - INFO - tpe_transform took 0.047832 seconds
+2017-09-24 10:36:24,409 - INFO - TPE using 0 trials
+2017-09-24 10:37:42,224 - INFO - tpe_transform took 0.043557 seconds
+2017-09-24 10:37:42,226 - INFO - TPE using 1/1 trials with best loss 0.462483
+2017-09-24 10:47:07,188 - INFO - Processed index: 0
+2017-09-24 10:47:14,685 - INFO - Processed index: 10000
+2017-09-24 10:47:21,884 - INFO - Processed index: 20000
+2017-09-24 10:47:29,346 - INFO - Processed index: 30000
+2017-09-24 10:47:36,966 - INFO - Processed index: 40000
+2017-09-24 10:47:43,923 - INFO - Processed index: 50000
+2017-09-24 10:47:50,960 - INFO - Processed index: 60000
+2017-09-24 10:47:57,810 - INFO - Processed index: 70000
+2017-09-24 10:48:05,306 - INFO - Processed index: 80000
+2017-09-24 10:48:13,079 - INFO - Processed index: 90000
+2017-09-24 10:48:20,616 - INFO - Processed index: 100000
+2017-09-24 10:48:27,684 - INFO - Processed index: 110000
+2017-09-24 10:48:35,354 - INFO - Processed index: 120000
+2017-09-24 10:48:44,147 - INFO - Processed index: 130000
+2017-09-24 10:48:52,683 - INFO - Processed index: 140000
+2017-09-24 10:49:00,565 - INFO - Processed index: 150000
+2017-09-24 10:49:08,363 - INFO - Processed index: 160000
+2017-09-24 10:49:16,213 - INFO - Processed index: 170000
+2017-09-24 10:49:23,407 - INFO - Processed index: 180000
+2017-09-24 10:49:30,430 - INFO - Processed index: 190000
+2017-09-24 10:49:38,073 - INFO - Processed index: 200000
+2017-09-24 10:49:46,485 - INFO - Processed index: 210000
+2017-09-24 10:49:53,336 - INFO - Molecule failed featurization
+2017-09-24 10:49:53,338 - INFO - 218052
+2017-09-24 10:49:54,960 - INFO - Processed index: 220000
+2017-09-24 10:49:56,860 - INFO - Sampling
+2017-09-24 10:49:57,260 - INFO - Compute classes statistics ...
+2017-09-24 10:49:57,266 - DEBUG - The number of classes is 2
+2017-09-24 10:49:57,271 - DEBUG - Shall we raise a warning: False
+2017-09-24 10:49:57,325 - INFO - 2 classes detected: Counter({0: 204253, 1: 16111})
+2017-09-24 10:49:59,254 - INFO - Under-sampling performed: Counter({1: 16111, 0: 16111})
+2017-09-24 10:49:59,255 - INFO - Processed all, pickling
+2017-09-24 10:50:17,334 - INFO - Computed roc_auc score of: 0.6342477656405163
+2017-09-24 10:50:17,340 - INFO -              precision    recall  f1-score   support
+
+          0       0.63      0.63      0.63      8056
+          1       0.63      0.64      0.63      8056
+
+avg / total       0.63      0.63      0.63     16112
+
+2017-09-24 10:50:30,245 - INFO - Computed roc_auc score of: 0.6350093109869646
+2017-09-24 10:50:30,250 - INFO -              precision    recall  f1-score   support
+
+          0       0.64      0.62      0.63      8055
+          1       0.63      0.65      0.64      8055
+
+avg / total       0.64      0.64      0.63     16110
+
+2017-09-24 10:50:30,251 - DEBUG - Average roc_auc score is: 0.6346285383137404
+2017-09-24 11:02:00,506 - INFO - Computed roc_auc score of: 0.6899205561072493
+2017-09-24 11:02:00,511 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.71      0.70      8056
+          1       0.70      0.67      0.68      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 11:16:08,598 - INFO - Computed roc_auc score of: 0.6929857231533209
+2017-09-24 11:16:08,602 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.67      0.69      8055
+          1       0.69      0.71      0.70      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 11:16:08,603 - DEBUG - Average roc_auc score is: 0.6914531396302851
+2017-09-24 11:16:15,693 - INFO - Computed roc_auc score of: 0.7089126117179742
+2017-09-24 11:16:15,697 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.74      0.72      8056
+          1       0.72      0.68      0.70      8056
+
+avg / total       0.71      0.71      0.71     16112
+
+2017-09-24 11:16:23,796 - INFO - Computed roc_auc score of: 0.7093109869646183
+2017-09-24 11:16:23,801 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.72      0.71      8055
+          1       0.72      0.69      0.70      8055
+
+avg / total       0.71      0.71      0.71     16110
+
+2017-09-24 11:16:23,802 - INFO - Average roc_auc score is: 0.7091117993412962
+2017-09-24 11:16:24,199 - INFO - tpe_transform took 0.047793 seconds
+2017-09-24 11:16:24,200 - INFO - TPE using 0 trials
+2017-09-24 11:21:24,647 - INFO - tpe_transform took 0.045656 seconds
+2017-09-24 11:21:24,648 - INFO - TPE using 1/1 trials with best loss inf
+2017-09-24 11:26:25,001 - INFO - tpe_transform took 0.046115 seconds
+2017-09-24 11:26:25,002 - INFO - TPE using 2/2 trials with best loss inf
+2017-09-24 11:28:28,659 - INFO - tpe_transform took 0.045682 seconds
+2017-09-24 11:28:28,661 - INFO - TPE using 3/3 trials with best loss 0.319129
+2017-09-24 11:32:39,734 - INFO - tpe_transform took 0.129502 seconds
+2017-09-24 11:32:39,735 - INFO - TPE using 4/4 trials with best loss 0.319129
+2017-09-24 11:37:40,121 - INFO - tpe_transform took 0.043525 seconds
+2017-09-24 11:37:40,123 - INFO - TPE using 5/5 trials with best loss 0.319129
+2017-09-24 11:42:40,576 - INFO - tpe_transform took 0.046590 seconds
+2017-09-24 11:42:40,577 - INFO - TPE using 6/6 trials with best loss 0.319129
+2017-09-24 11:42:46,321 - INFO - tpe_transform took 0.046814 seconds
+2017-09-24 11:42:46,323 - INFO - TPE using 7/7 trials with best loss 0.319129
+2017-09-24 11:43:06,088 - INFO - tpe_transform took 0.046755 seconds
+2017-09-24 11:43:06,090 - INFO - TPE using 8/8 trials with best loss 0.319129
+2017-09-24 11:46:29,785 - INFO - tpe_transform took 0.044329 seconds
+2017-09-24 11:46:29,787 - INFO - TPE using 9/9 trials with best loss 0.319129
+2017-09-24 11:53:57,528 - INFO - tpe_transform took 0.048498 seconds
+2017-09-24 11:53:57,530 - INFO - TPE using 0 trials
+2017-09-24 11:54:47,740 - INFO - tpe_transform took 0.045480 seconds
+2017-09-24 11:54:47,742 - INFO - TPE using 1/1 trials with best loss 0.316350
+2017-09-24 11:59:48,141 - INFO - tpe_transform took 0.046877 seconds
+2017-09-24 11:59:48,143 - INFO - TPE using 2/2 trials with best loss 0.316350
+2017-09-24 12:00:10,025 - INFO - tpe_transform took 0.047770 seconds
+2017-09-24 12:00:10,027 - INFO - TPE using 3/3 trials with best loss 0.316350
+2017-09-24 12:05:10,327 - INFO - tpe_transform took 0.047304 seconds
+2017-09-24 12:05:10,329 - INFO - TPE using 4/4 trials with best loss 0.316350
+2017-09-24 12:10:10,793 - INFO - tpe_transform took 0.046279 seconds
+2017-09-24 12:10:10,795 - INFO - TPE using 5/5 trials with best loss 0.316350
+2017-09-24 12:10:12,957 - INFO - tpe_transform took 0.135500 seconds
+2017-09-24 12:10:12,958 - INFO - TPE using 6/6 trials with best loss 0.316350
+2017-09-24 12:14:00,796 - INFO - tpe_transform took 0.046082 seconds
+2017-09-24 12:14:00,798 - INFO - TPE using 7/7 trials with best loss 0.316350
+2017-09-24 12:14:13,990 - INFO - tpe_transform took 0.045524 seconds
+2017-09-24 12:14:13,991 - INFO - TPE using 8/8 trials with best loss 0.296665
+2017-09-24 12:18:33,680 - INFO - tpe_transform took 0.045655 seconds
+2017-09-24 12:18:33,681 - INFO - TPE using 9/9 trials with best loss 0.296665
+2017-09-24 12:22:51,958 - INFO - 0.71337220237
+2017-09-24 12:22:51,960 - INFO - {'learner': RandomForestClassifier(bootstrap=False, class_weight=None, criterion='gini',
+            max_depth=None, max_features='log2', max_leaf_nodes=None,
+            min_impurity_split=1e-07, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=72, n_jobs=1, oob_score=False, random_state=3,
+            verbose=False, warm_start=False), 'preprocs': (MinMaxScaler(copy=True, feature_range=(-1.0, 1.0)),), 'ex_preprocs': ()}
+2017-09-24 13:49:21,987 - INFO - Computed roc_auc score of: 0.7023957298907646
+2017-09-24 13:49:21,992 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.74      0.71      8056
+          1       0.72      0.66      0.69      8056
+
+avg / total       0.70      0.70      0.70     16112
+
+2017-09-24 13:49:35,778 - INFO - Computed roc_auc score of: 0.706455617628802
+2017-09-24 13:49:35,782 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.74      0.72      8055
+          1       0.72      0.67      0.70      8055
+
+avg / total       0.71      0.71      0.71     16110
+
+2017-09-24 13:49:35,783 - INFO - Average roc_auc score is: 1.0589815734304313
