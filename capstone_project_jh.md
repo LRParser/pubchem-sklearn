@@ -15,9 +15,7 @@ Bioassays produce much of the data used by computational chemists; they are a fo
 
 There is a wealth of bioassay information hosted by the US National Institutes of Health at their [PubChem](https://pubchem.ncbi.nlm.nih.gov) site. As of the time this report was written, the Bioassay database at PubChem "...held over one million records holding 230,000,000 bioactivity outcomes deposited by over 80 organizations" (Wang, Yanli et al. 2017). Clearly there is a wealth of well-labelled data available at this site. 
 
-For this particular project, we use the data that is available for Bioassay 1030, which looks at inhibitors for the gene ALDH1A1, a gene that is implicated in metabolic disorders. The source data is available [here](https://pubchem.ncbi.nlm.nih.gov/bioassay/1030). We utilize here the assay data table as well as a table with canonical module representations (referred to as SMILES format) as the base data for this project.
-
-
+For this particular project, we use the data that is available for Bioassay 1030, which looks at inhibitors for the gene ALDH1A1, a gene that is implicated in metabolic disorders, several cancers, and Parkinson's Disease. The source data is available [here](https://pubchem.ncbi.nlm.nih.gov/bioassay/1030). We utilize here the assay data table as well as a table with canonical module representations (referred to as SMILES format) as the base data for this project.
 
 ### Problem Statement
 
@@ -90,10 +88,6 @@ We also construct visualizations of the first two compounds which were tested in
 In this diagram, the title shows two example SMILES string; the left molecule represents the molecule with the SMILES string for "Example 1" and the right molecule represents the molecule with the SMILES string for "Example 2".
 
 ### Algorithms and Techniques
-In this section, you will need to discuss the algorithms and techniques you intend to use for solving the problem. You should justify the use of each one based on the characteristics of the problem and the problem domain. Questions to ask yourself when writing this section:
-- _Are the algorithms you will use, including any default variables/parameters in the project clearly defined?_
-- _Are the techniques to be used thoroughly discussed and justified?_
-- _Is it made clear how the input data or datasets will be handled by the algorithms and techniques chosen?_
 
 I intend to look at a range of algorithms for solving this problem; specifically decision trees, random forests as well as both shallow (via MLPClassifier) as well as deep (via KerasClassifier) neural networks to see how well the algorithms are able to classify the data. I avoid the use of support vector machine-based classifiers given the large size of the unsampled dataset. 
 
@@ -103,7 +97,7 @@ One particular challenge of this task is that it involves unbalanced learning, a
 
 Because this is a novel analysis, there is no directly comparable benchmark available. For this reason I will look directly at F1 score metrics obtained, examining them on a class-by-class basis to ensure the model is not simply predicting 'false' to obtain a high F1 score.
 
-One partially-comparable benchmark is the MoleculeNet benchmark [paper](https://arxiv.org/abs/1703.00564), which notes an area under curve for the receiver operating characteristic (AUC-ROC) of .781 for the test set of their model, which given a SMILES string simultaneously predicts bioactivity on each of the 128 assays the model was trained on (this is what is meant by 'multi-task' in this context).
+One partially-comparable benchmark is the MoleculeNet benchmark [paper](https://arxiv.org/abs/1703.00564) published by Wu et al in 2017; it notes an area under curve for the receiver operating characteristic (AUC-ROC) of .781 for the test set of their model, which when given a SMILES string simultaneously predicts bioactivity on each of the 128 assays the model was trained on (this is what is meant by 'multi-task' in this context).
 
 ## III. Methodology
 _(approx. 3-5 pages)_
@@ -146,58 +140,64 @@ During the refinement process, I made sure to use k-fold cross-validation, so th
 The process of refining the initial model is documented in the pubchem_bioassay_sklearn notebook [report]("pubchem_bioassay_sklearn.html") and can be reproduced using the pubchem_bioassay_sklearn [notebook]("pubchem_bioassay_sklearn.ipynb").
 
 ## IV. Results
-_(approx. 2-3 pages)_
-
+=
 ### Model Evaluation and Validation
-In this section, the final model and any supporting qualities should be evaluated in detail. It should be clear how the final model was derived and why this model was chosen. In addition, some type of analysis should be used to validate the robustness of this model and its solution, such as manipulating the input data or environment to see how the model’s solution is affected (this is called sensitivity analysis). Questions to ask yourself when writing this section:
-- _Is the final model reasonable and aligning with solution expectations? Are the final parameters of the model appropriate?_
-- _Has the final model been tested with various inputs to evaluate whether the model generalizes well to unseen data?_
-- _Is the model robust enough for the problem? Do small perturbations (changes) in training data or the input space greatly affect the results?_
-- _Can results found from the model be trusted?_
 
 I had expected the final classification model to come in the form of a deep neural network, per my proposed methodology, but was surprised that using a deep neural network on the classification dataset failed to yield better results than the Random Forest documented in the Refinement section. I believe this may be due to the fact that the effective size of the dataset was significantly reduced due to the need to create balanced classes for training; I went for a dataset of approximately 220,000 datapoints pre-processing, down to about 16,000 datapoints during the training process. I experimented with multiple deep neural network configurations using the Keras library but failed to obtain a average F1-score better than .68 in any configuration. A representative analysis is shown in the pubchem_dnn notebook [report]("pubchem_dnn.html") and can be reproduced using the pubchem_dnn [notebook]("pubchem_dnn.ipynb").
 
-### Justification
-In this section, your model’s final solution and its results should be compared to the benchmark you established earlier in the project using some type of statistical analysis. You should also justify whether these results and the solution are significant enough to have solved the problem posed in the project. Questions to ask yourself when writing this section:
-- _Are the final results found stronger than the benchmark result reported earlier?_
-- _Have you thoroughly analyzed and discussed the final solution?_
-- _Is the final solution significant enough to have solved the problem?_
+The model does appear to be robust in the face of perturbations of training/test data, as can be seen by comparable results during multiple folds of evaluation. Due to this, I believe that the model can be trusted.
 
+I additionally had hoped that building a classifier on top of a regressor might yield better results. This approach is promising as a scientist might run a prediction on a batch of compounds generated by an autoencoder such as that hosted by [ChEMBL]("http://chembl.blogspot.de/2017/07/using-autoencoders-for-molecule.html"), and improve the likelihood of finding a medicine by restricting lab testing to just those compounds was a regression score of greater than e.g. .9, however the attempt at using a DecisionTreeRegressor yielded no significant improvement in f-score, and as such this approach was abandoned.
+
+One interesting result is the running a convolutional neural network on the unbalanced dataset, such as in the pubchem_conv notebook, provided good accuracy in classifying false compounds, as can be seen by the following classification report:
+
+precision    recall  f1-score   support
+
+          0       0.94      0.96      0.95    102127
+          1       0.30      0.21      0.25      8056
+
+avg / total       0.89      0.91      0.90    110183
+
+The reason for using a convolutional network was to attempt to reproduce the graph convolution approach of Ramsunder et al (2015), however this approach only yielded lift in terms of the negative classification but not in terms of identifying positive classes. The trained model might, however, be useful in terms of filtering out compounds in a pre-processing steps of a more robust pipeline, as the recall and support of .94 and .96 are both better than the .92 fraction of false results present in the initial dataset.
+
+
+### Justification
+
+
+Given a benchmark AUC-ROC of .781 obtained by the MoleculeNet team (Wu et al 2017), I consider my AUC-ROC benchmark of .709 when using the RandomForestClassifier to be competitive. Additionally, the authors of the prior benchmark do not give performance information for specifically the ALDH1A1 target, whereas I can state with confidence that I have created a targeted model which is able to predict inhibitors of ALDH1A1. I believe these results are significant enough to have solved the problem of providing a model that improves the efficiency of the drug discovery process for inhibitors of ALDH1A1. As far as I know, this is the only open-source machine learning model that exists for this particular gene and protein combination.
 
 ## V. Conclusion
-_(approx. 1-2 pages)_
 
 ### Free-Form Visualization
-In this section, you will need to provide some form of visualization that emphasizes an important quality about the project. It is much more free-form, but should reasonably support a significant result or characteristic about the problem that you want to discuss. Questions to ask yourself when writing this section:
-- _Have you visualized a relevant or important quality about the problem, dataset, input data, or results?_
-- _Is the visualization thoroughly analyzed and discussed?_
-- _If a plot is provided, are the axes, title, and datum clearly defined?_
+
+Given the high dimensionality of the 1024-bit feature vector provided by the RDKit [library](http://www.rdkit.org/), a visualization of the feature space directly is difficult to interpret, however, running Tensorboard on the output of the pubchem_conv experiment - linked are [report]("pubchem_conv.html") and [notebook]("pubchem_conv.ipynb") - gives a feeling for the shape of this model and the training rate. The first visualization shows the improvement to the binary classification accuracy, as well as reduction in binary categorical cross-entropy loss function, throughout the test run. Note: axes could not be labeled directly from Tensorboard. This is shown below:
+
+<a href="" target="_blank"><img src="AccuracyAndLoss.png"/></a>
+
+The architecture which helped archieve this is visualized, in part, below:
+
+<a href="" target="_blank"><img src="TensorBoardCNN.png"/></a>
+
 
 ### Reflection
-In this section, you will summarize the entire end-to-end problem solution and discuss one or two particular aspects of the project you found interesting or difficult. You are expected to reflect on the project as a whole to show that you have a firm understanding of the entire process employed in your work. Questions to ask yourself when writing this section:
-- _Have you thoroughly summarized the entire process you used for this project?_
-- _Were there any interesting aspects of the project?_
-- _Were there any difficult aspects of the project?_
-- _Does the final model and solution fit your expectations for the problem, and should it be used in a general setting to solve these types of problems?_
+
+In summary, I created a machine-learning pipeline encompassing data pre-processing, featurization and prediction under k-fold cross validation. 
+
+One interesting aspect of this project was that in completing it, I obtained a better understanding by what is meant by 'multi-task' classifiers; like a child that learns to sit by learning multiple sub-task at the same time (such as learning to lift his/her head, learning to arch his/her back, etc.), these models appear to learn generalized features about bioactivity across many disaparate targets at once. This phenomenon is further explored [here](http://pubs.acs.org/doi/abs/10.1021/acs.jcim.7b00087?journalCode=jcisd8)
+
+The most difficult aspect of this project was the fact that the dataset was both uncomfortably large (before sampling) and uncomfortably small (after sampling) such that DNNs did not show significant performance improvements. Additionally training deep neural networks required significant setup time. However I was pleased with the ease of use of the Keras library.
+
+I believe that the final model and solution fits my expectations, and could be used in a production setting to help improve the efficiency of screening for novel compounds. One way to use the model would be to download a list of all currently approved drugs in a specific country like the US, as provided by [DrugBank](https://www.drugbank.ca/releases/5-0-8/downloads/approved-structures), and run them through the predictor to see if any might be helpful for persons suffering from diseases associated with ALDH1A1. 
 
 ### Improvement
-In this section, you will need to provide discussion as to how one aspect of the implementation you designed could be improved. As an example, consider ways your implementation can be made more general, and what would need to be modified. You do not need to make this improvement, but the potential solutions resulting from these changes are considered and compared/contrasted to your current solution. Questions to ask yourself when writing this section:
-- _Are there further improvements that could be made on the algorithms or techniques you used in this project?_
-- _Were there algorithms or techniques you researched that you did not know how to implement, but would consider using if you knew how?_
-- _If you used your final solution as the new benchmark, do you think an even better solution exists?_
+
+Unfortunately many of the analyses of ALDH1A1 are not shared in an open format on PubChem. For this reason, I believe that using an NLP-based feature extractor could have a lot of value; increasing the size of the training dataset so that deep learning algorithms yield better results is the main change I'd like to make. For instance, other inhibitors of the expressed products of this gene are documented [here](https://www.ncbi.nlm.nih.gov/pubmed/25634381) and [here](https://www.ncbi.nlm.nih.gov/pubmed/26207746), however I was not able to leverage this information in this model. 
+
+I do think that an even better solution exists; likely this solution will also look at bioassays related to similar genes/proteins, as well as using NLP to mine information not currently available in a structured form.
 
 ### Citations
 
+Ramsunder, Bharath et. al. "Massively Multitask Networks for Drug Discovery". arXiv:1502.02072
 Wang, Yanli et al. “PubChem BioAssay: 2017 Update.” Nucleic Acids Research 45.Database issue (2017): D955–D963. PMC. Web. 19 Sept. 2017.
+Wu, Zhenquin et al. "MoleculeNet: A Benchmark for Molecular Machine Learning". arXiv:1703.00564
 
------------
-
-**Before submitting, ask yourself. . .**
-
-- Does the project report you’ve written follow a well-organized structure similar to that of the project template?
-- Is each section (particularly **Analysis** and **Methodology**) written in a clear, concise and specific fashion? Are there any ambiguous terms or phrases that need clarification?
-- Would the intended audience of your project be able to understand your analysis, methods, and results?
-- Have you properly proof-read your project report to assure there are minimal grammatical and spelling mistakes?
-- Are all the resources used for this project correctly cited and referenced?
-- Is the code that implements your solution easily readable and properly commented?
-- Does the code execute without error and produce results similar to those reported?
