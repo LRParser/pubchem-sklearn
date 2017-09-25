@@ -119,11 +119,13 @@ A final challenge was the large amount of memory required during the featurizati
 
 The best initial solution that was found was a RandomForestClassifier; this was both relatively easy to implement and efficient to evaluate on the undersampled dataset. This classifier achieved an average F1-score for the positive class of .70 under 2 folds of testing:
 
+```
              precision    recall  f1-score   support
 
           0       0.70      0.72      0.71      8055
           1       0.72      0.69      0.70      8055
 avg / total       0.71      0.71      0.71     16110
+```
 
 The F1-score for the negative class was also a respectable .71.
 
@@ -143,11 +145,13 @@ I additionally had hoped that building a classifier on top of a regressor might 
 
 One interesting result is the running a convolutional neural network on the unbalanced dataset, such as in the pubchem_conv notebook, provided good accuracy in classifying false compounds, as can be seen by the following classification report:
 
+```
 precision    recall  f1-score   support
 
           0       0.94      0.96      0.95    102127
           1       0.30      0.21      0.25      8056
 avg / total       0.89      0.91      0.90    110183
+```
 
 The reason for using a convolutional network was to attempt to reproduce the graph convolution approach of Ramsunder et al (2015), however this approach only yielded lift in terms of the negative classification but not in terms of identifying positive classes. The trained model might, however, be useful in terms of filtering out compounds in a pre-processing steps of a more robust pipeline, as the recall and support of .94 and .96 are both better than the .92 fraction of false results present in the initial dataset.
 
