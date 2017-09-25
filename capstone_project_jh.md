@@ -4,7 +4,6 @@ Joseph Heenan
 September 19, 2017
 
 ## I. Definition
-_(approx. 1-2 pages)_
 
 ### Project Overview
 
@@ -46,7 +45,6 @@ I plan to examine the average F1 score across the two prediction class (True, e.
 
 
 ## II. Analysis
-_(approx. 2-4 pages)_
 
 ### Data Exploration
 
@@ -75,7 +73,7 @@ Regarding related datasets, the MoleculeNet benchmark [paper](https://arxiv.org/
 
 ### Exploratory Visualization
 
-As discussed earlier, the root dataset is highly imbalanced. Below is a histogram of the activity scores of each compound. Compounds with an activity score of 0 were classified as inactive in the original assay; scores from 0-40 were ranked as inconclusive; and scores from 40 and above were ranked as active. We can see that the great majority of the scores are under 40:
+As discussed earlier, the root dataset is highly imbalanced. Below is a histogram of the activity scores of each compound. Compounds with an activity score of 0 were classified as inactive in the original assay; scores from 0-40 were ranked as inconclusive; and scores from 40 and above were ranked as active. We can see that the great majority of the scores are under 40 (note; graphing configuration was unable to label axes directly, hence written descriptions):
 
 <a href="" target="_blank"><img src="FrequencyOfActivityDistribution.png"/></a>
 
@@ -100,7 +98,6 @@ Because this is a novel analysis, there is no directly comparable benchmark avai
 One partially-comparable benchmark is the MoleculeNet benchmark [paper](https://arxiv.org/abs/1703.00564) published by Wu et al in 2017; it notes an area under curve for the receiver operating characteristic (AUC-ROC) of .781 for the test set of their model, which when given a SMILES string simultaneously predicts bioactivity on each of the 128 assays the model was trained on (this is what is meant by 'multi-task' in this context).
 
 ## III. Methodology
-_(approx. 3-5 pages)_
 
 ### Data Preprocessing
 
@@ -109,10 +106,6 @@ The unbalanced dataset abnormality needed to be corrected during preprocessing, 
 Additionally we coalese the "inactive" and "inconclusive" activities into both "inactive" to make analysis and engineering effort less. We conduct some experimental regression analysis to see if modelling based on the raw activity scores provides much of a boost to the model, however we determine that it does not.
 
 ### Implementation
-In this section, the process for which metrics, algorithms, and techniques that you implemented for the given data will need to be clearly documented. It should be abundantly clear how the implementation was carried out, and discussion should be made regarding any complications that occurred during this process. Questions to ask yourself when writing this section:
-- _Is it made clear how the algorithms and techniques were implemented with the given datasets or input data?_
-- _Were there any complications with the original metrics or techniques that required changing prior to acquiring a solution?_
-- _Was there any part of the coding process (e.g., writing complicated functions) that should be documented?_
 
 The implementation was carried out using scikit-learn and Keras. There were a number of challenges encountered during the implementation. Initially as a first step I created a Decision Tree classifier based on the raw dataset (without sampling) and was surprised to find a high cross-class F1-score of around .9. However when analyzed via the classification_report feature of scikit-learn, I realized this was due to excellent performance in nearly always predicting false for the label but with an F1 score for True class around .3; this meant little value however for a model that we want to have precision in finding new medicines. Initially I attempted to use several different values for the class_weight parameter available in scikit-learn classifiers however this made little improvement in the F1-score for the positive class. For this reason I focused the rest of my analysis on using an undersampled dataset which contained an even number of True and False class labels.
 
@@ -140,7 +133,7 @@ During the refinement process, I made sure to use k-fold cross-validation, so th
 The process of refining the initial model is documented in the pubchem_bioassay_sklearn notebook [report]("pubchem_bioassay_sklearn.html") and can be reproduced using the pubchem_bioassay_sklearn [notebook]("pubchem_bioassay_sklearn.ipynb").
 
 ## IV. Results
-=
+
 ### Model Evaluation and Validation
 
 I had expected the final classification model to come in the form of a deep neural network, per my proposed methodology, but was surprised that using a deep neural network on the classification dataset failed to yield better results than the Random Forest documented in the Refinement section. I believe this may be due to the fact that the effective size of the dataset was significantly reduced due to the need to create balanced classes for training; I went for a dataset of approximately 220,000 datapoints pre-processing, down to about 16,000 datapoints during the training process. I experimented with multiple deep neural network configurations using the Keras library but failed to obtain a average F1-score better than .68 in any configuration. A representative analysis is shown in the pubchem_dnn notebook [report]("pubchem_dnn.html") and can be reproduced using the pubchem_dnn [notebook]("pubchem_dnn.ipynb").
@@ -176,7 +169,7 @@ Given the high dimensionality of the 1024-bit feature vector provided by the RDK
 
 The architecture which helped archieve this is visualized, in part, below:
 
-<a href="" target="_blank"><img src="TensorBoardCNN.png"/></a>
+<a href="" target="_blank"><img src="TensorboardCNN.png"/></a>
 
 
 ### Reflection
