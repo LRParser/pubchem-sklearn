@@ -6,7 +6,7 @@ This is a project to analyze bioassay data from the PubChem service via various 
 
 ### Background on the assay and terminology
 
-The bioassay and relevant SMILES mappings were downloaded from the PubChem site directly for the sample bioassay 1030; this bioassay looks for inhibitors of the protein encoding gene ALDH1A1; this gene is associated with metabolic diseases.The bioassay tests a number of compounds; the SMILES mappings for these compounds was also downloaded from PubChem. The SMILES data is normalized in the form of Morgan Fingerprints which are then used to train various algorithms via sklearn. Results can be found [here]("capstone_project_jh.md") and in PDF form [here]("report.pdf")
+The bioassay and relevant SMILES mappings were downloaded from the PubChem site directly for the sample bioassay 1030; this bioassay looks for inhibitors of the protein encoding gene ALDH1A1; this gene is associated with metabolic diseases.The bioassay tests a number of compounds; the SMILES mappings for these compounds was also downloaded from PubChem. The SMILES data is normalized in the form of Morgan Fingerprints which are then used to train various algorithms via sklearn. Results can be found [here](capstone_project_jh.md) and in PDF form [here](report.pdfW)
 
 ### Setup
 
