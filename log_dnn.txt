@@ -1,0 +1,1825 @@
+2017-09-23 22:03:37,656 - DEBUG - 
+Computed roc_auc score of: 0.6698733862959285
+2017-09-23 22:03:37,663 - DEBUG -              precision    recall  f1-score   support
+
+          0       0.67      0.67      0.67      8056
+          1       0.67      0.67      0.67      8056
+
+avg / total       0.67      0.67      0.67     16112
+
+2017-09-23 22:03:37,668 - DEBUG - When using regressor as an active/inactive classifier, f1 score of: 0.6706297603566783
+2017-09-23 22:07:47,945 - DEBUG - 
+Computed roc_auc score of: 0.6734947237740533
+2017-09-23 22:07:47,951 - DEBUG -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-23 22:07:47,955 - DEBUG - When using regressor as an active/inactive classifier, f1 score of: 0.6786805131337814
+2017-09-23 22:07:47,956 - DEBUG - Average roc_auc score is: 0.671684055034991
+2017-09-24 07:47:55,881 - DEBUG - 
+Computed roc_auc score of: 0.6698733862959285
+2017-09-24 07:47:55,881 - DEBUG - 
+Computed roc_auc score of: 0.6698733862959285
+2017-09-24 07:47:55,886 - DEBUG -              precision    recall  f1-score   support
+
+          0       0.67      0.67      0.67      8056
+          1       0.67      0.67      0.67      8056
+
+avg / total       0.67      0.67      0.67     16112
+
+2017-09-24 07:47:55,886 - DEBUG -              precision    recall  f1-score   support
+
+          0       0.67      0.67      0.67      8056
+          1       0.67      0.67      0.67      8056
+
+avg / total       0.67      0.67      0.67     16112
+
+2017-09-24 07:47:55,891 - DEBUG - When using regressor as an active/inactive classifier, f1 score of: 0.6706297603566783
+2017-09-24 07:47:55,891 - DEBUG - When using regressor as an active/inactive classifier, f1 score of: 0.6706297603566783
+2017-09-24 07:51:20,593 - DEBUG - 
+Computed roc_auc score of: 0.6734947237740533
+2017-09-24 07:51:20,593 - DEBUG - 
+Computed roc_auc score of: 0.6734947237740533
+2017-09-24 07:51:20,601 - DEBUG -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 07:51:20,601 - DEBUG -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 07:51:20,608 - DEBUG - When using regressor as an active/inactive classifier, f1 score of: 0.6786805131337814
+2017-09-24 07:51:20,608 - DEBUG - When using regressor as an active/inactive classifier, f1 score of: 0.6786805131337814
+2017-09-24 07:51:20,610 - DEBUG - Average roc_auc score is: 0.671684055034991
+2017-09-24 07:51:20,610 - DEBUG - Average roc_auc score is: 0.671684055034991
+2017-09-24 07:56:48,734 - INFO - 
+Computed roc_auc score of: 0.6698733862959285
+2017-09-24 07:56:48,734 - INFO - 
+Computed roc_auc score of: 0.6698733862959285
+2017-09-24 07:56:48,734 - INFO - 
+Computed roc_auc score of: 0.6698733862959285
+2017-09-24 07:56:48,743 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.67      0.67      8056
+          1       0.67      0.67      0.67      8056
+
+avg / total       0.67      0.67      0.67     16112
+
+2017-09-24 07:56:48,743 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.67      0.67      8056
+          1       0.67      0.67      0.67      8056
+
+avg / total       0.67      0.67      0.67     16112
+
+2017-09-24 07:56:48,743 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.67      0.67      8056
+          1       0.67      0.67      0.67      8056
+
+avg / total       0.67      0.67      0.67     16112
+
+2017-09-24 07:56:48,751 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6706297603566783
+2017-09-24 07:56:48,751 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6706297603566783
+2017-09-24 07:56:48,751 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6706297603566783
+2017-09-24 08:00:25,175 - INFO - 
+Computed roc_auc score of: 0.6734947237740533
+2017-09-24 08:00:25,175 - INFO - 
+Computed roc_auc score of: 0.6734947237740533
+2017-09-24 08:00:25,175 - INFO - 
+Computed roc_auc score of: 0.6734947237740533
+2017-09-24 08:00:25,181 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 08:00:25,181 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 08:00:25,181 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 08:00:25,186 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6786805131337814
+2017-09-24 08:00:25,186 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6786805131337814
+2017-09-24 08:00:25,186 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6786805131337814
+2017-09-24 08:00:25,189 - INFO - Average roc_auc score is: 0.671684055034991
+2017-09-24 08:00:25,189 - INFO - Average roc_auc score is: 0.671684055034991
+2017-09-24 08:00:25,189 - INFO - Average roc_auc score is: 0.671684055034991
+2017-09-24 08:00:25,191 - INFO - Average f1_score is: 0.6746551367452298
+2017-09-24 08:00:25,191 - INFO - Average f1_score is: 0.6746551367452298
+2017-09-24 08:00:25,191 - INFO - Average f1_score is: 0.6746551367452298
+2017-09-24 08:00:25,245 - DEBUG - Trying a larger network
+2017-09-24 08:00:25,245 - DEBUG - Trying a larger network
+2017-09-24 08:00:25,245 - DEBUG - Trying a larger network
+2017-09-24 08:35:44,935 - INFO - Computed roc_auc score of: 0.542327663536013
+2017-09-24 08:35:44,935 - INFO - Computed roc_auc score of: 0.542327663536013
+2017-09-24 08:35:44,935 - INFO - Computed roc_auc score of: 0.542327663536013
+2017-09-24 08:35:44,958 - INFO -              precision    recall  f1-score   support
+
+          0       0.93      0.91      0.92    102127
+          1       0.13      0.18      0.15      8056
+
+avg / total       0.87      0.85      0.86    110183
+
+2017-09-24 08:35:44,958 - INFO -              precision    recall  f1-score   support
+
+          0       0.93      0.91      0.92    102127
+          1       0.13      0.18      0.15      8056
+
+avg / total       0.87      0.85      0.86    110183
+
+2017-09-24 08:35:44,958 - INFO -              precision    recall  f1-score   support
+
+          0       0.93      0.91      0.92    102127
+          1       0.13      0.18      0.15      8056
+
+avg / total       0.87      0.85      0.86    110183
+
+2017-09-24 08:35:44,975 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.15078777625039655
+2017-09-24 08:35:44,975 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.15078777625039655
+2017-09-24 08:35:44,975 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.15078777625039655
+2017-09-24 08:54:10,241 - INFO - 
+Computed roc_auc score of: 0.673411122144985
+2017-09-24 08:54:10,241 - INFO - 
+Computed roc_auc score of: 0.673411122144985
+2017-09-24 08:54:10,241 - INFO - 
+Computed roc_auc score of: 0.673411122144985
+2017-09-24 08:54:10,241 - INFO - 
+Computed roc_auc score of: 0.673411122144985
+2017-09-24 08:54:10,250 - INFO -              precision    recall  f1-score   support
+
+          0       0.65      0.74      0.69      8056
+          1       0.70      0.60      0.65      8056
+
+avg / total       0.68      0.67      0.67     16112
+
+2017-09-24 08:54:10,250 - INFO -              precision    recall  f1-score   support
+
+          0       0.65      0.74      0.69      8056
+          1       0.70      0.60      0.65      8056
+
+avg / total       0.68      0.67      0.67     16112
+
+2017-09-24 08:54:10,250 - INFO -              precision    recall  f1-score   support
+
+          0       0.65      0.74      0.69      8056
+          1       0.70      0.60      0.65      8056
+
+avg / total       0.68      0.67      0.67     16112
+
+2017-09-24 08:54:10,250 - INFO -              precision    recall  f1-score   support
+
+          0       0.65      0.74      0.69      8056
+          1       0.70      0.60      0.65      8056
+
+avg / total       0.68      0.67      0.67     16112
+
+2017-09-24 08:54:10,256 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6489659773182122
+2017-09-24 08:54:10,256 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6489659773182122
+2017-09-24 08:54:10,256 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6489659773182122
+2017-09-24 08:54:10,256 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6489659773182122
+2017-09-24 08:54:14,361 - INFO - 
+Computed roc_auc score of: 0.6760397268777156
+2017-09-24 08:54:14,361 - INFO - 
+Computed roc_auc score of: 0.6760397268777156
+2017-09-24 08:54:14,361 - INFO - 
+Computed roc_auc score of: 0.6760397268777156
+2017-09-24 08:54:14,361 - INFO - 
+Computed roc_auc score of: 0.6760397268777156
+2017-09-24 08:54:14,369 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 08:54:14,369 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 08:54:14,369 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 08:54:14,369 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 08:54:14,376 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6806974609972469
+2017-09-24 08:54:14,376 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6806974609972469
+2017-09-24 08:54:14,376 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6806974609972469
+2017-09-24 08:54:14,376 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6806974609972469
+2017-09-24 08:54:14,380 - INFO - Average roc_auc score is: 0.6747254245113503
+2017-09-24 08:54:14,380 - INFO - Average roc_auc score is: 0.6747254245113503
+2017-09-24 08:54:14,380 - INFO - Average roc_auc score is: 0.6747254245113503
+2017-09-24 08:54:14,380 - INFO - Average roc_auc score is: 0.6747254245113503
+2017-09-24 08:54:14,384 - INFO - Average f1_score is: 0.6648317191577295
+2017-09-24 08:54:14,384 - INFO - Average f1_score is: 0.6648317191577295
+2017-09-24 08:54:14,384 - INFO - Average f1_score is: 0.6648317191577295
+2017-09-24 08:54:14,384 - INFO - Average f1_score is: 0.6648317191577295
+2017-09-24 08:54:14,425 - DEBUG - Trying a larger network
+2017-09-24 08:54:14,425 - DEBUG - Trying a larger network
+2017-09-24 08:54:14,425 - DEBUG - Trying a larger network
+2017-09-24 08:55:37,984 - INFO - Computed roc_auc score of: 0.6354741989195873
+2017-09-24 08:55:37,984 - INFO - Computed roc_auc score of: 0.6354741989195873
+2017-09-24 08:55:37,984 - INFO - Computed roc_auc score of: 0.6354741989195873
+2017-09-24 08:55:37,984 - INFO - Computed roc_auc score of: 0.6354741989195873
+2017-09-24 08:55:38,006 - INFO -              precision    recall  f1-score   support
+
+          0       0.95      0.94      0.94     67470
+          1       0.31      0.33      0.32      5251
+
+avg / total       0.90      0.90      0.90     72721
+
+2017-09-24 08:55:38,006 - INFO -              precision    recall  f1-score   support
+
+          0       0.95      0.94      0.94     67470
+          1       0.31      0.33      0.32      5251
+
+avg / total       0.90      0.90      0.90     72721
+
+2017-09-24 08:55:38,006 - INFO -              precision    recall  f1-score   support
+
+          0       0.95      0.94      0.94     67470
+          1       0.31      0.33      0.32      5251
+
+avg / total       0.90      0.90      0.90     72721
+
+2017-09-24 08:55:38,006 - INFO -              precision    recall  f1-score   support
+
+          0       0.95      0.94      0.94     67470
+          1       0.31      0.33      0.32      5251
+
+avg / total       0.90      0.90      0.90     72721
+
+2017-09-24 08:55:38,021 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.3168117269812185
+2017-09-24 08:55:38,021 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.3168117269812185
+2017-09-24 08:55:38,021 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.3168117269812185
+2017-09-24 08:55:38,021 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.3168117269812185
+2017-09-24 10:11:55,005 - INFO - 
+Computed roc_auc score of: 0.673411122144985
+2017-09-24 10:11:55,011 - INFO -              precision    recall  f1-score   support
+
+          0       0.65      0.74      0.69      8056
+          1       0.70      0.60      0.65      8056
+
+avg / total       0.68      0.67      0.67     16112
+
+2017-09-24 10:11:55,015 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6489659773182122
+2017-09-24 10:11:58,515 - INFO - 
+Computed roc_auc score of: 0.6760397268777156
+2017-09-24 10:11:58,520 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 10:11:58,523 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6806974609972469
+2017-09-24 10:11:58,524 - INFO - Average roc_auc score is: 0.6747254245113503
+2017-09-24 10:11:58,525 - INFO - Average f1_score is: 0.6648317191577295
+2017-09-24 10:24:23,895 - INFO - 
+Computed roc_auc score of: 0.673411122144985
+2017-09-24 10:24:23,895 - INFO - 
+Computed roc_auc score of: 0.673411122144985
+2017-09-24 10:24:23,900 - INFO -              precision    recall  f1-score   support
+
+          0       0.65      0.74      0.69      8056
+          1       0.70      0.60      0.65      8056
+
+avg / total       0.68      0.67      0.67     16112
+
+2017-09-24 10:24:23,900 - INFO -              precision    recall  f1-score   support
+
+          0       0.65      0.74      0.69      8056
+          1       0.70      0.60      0.65      8056
+
+avg / total       0.68      0.67      0.67     16112
+
+2017-09-24 10:24:23,904 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6489659773182122
+2017-09-24 10:24:23,904 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6489659773182122
+2017-09-24 10:24:27,821 - INFO - 
+Computed roc_auc score of: 0.6760397268777156
+2017-09-24 10:24:27,821 - INFO - 
+Computed roc_auc score of: 0.6760397268777156
+2017-09-24 10:24:27,826 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 10:24:27,826 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 10:24:27,830 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6806974609972469
+2017-09-24 10:24:27,830 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6806974609972469
+2017-09-24 10:24:27,832 - INFO - Average roc_auc score is: 0.6747254245113503
+2017-09-24 10:24:27,832 - INFO - Average roc_auc score is: 0.6747254245113503
+2017-09-24 10:24:27,834 - INFO - Average f1_score is: 0.6648317191577295
+2017-09-24 10:24:27,834 - INFO - Average f1_score is: 0.6648317191577295
+2017-09-24 10:24:40,874 - INFO - Computed roc_auc score of: 0.6890875208691574
+2017-09-24 10:24:40,874 - INFO - Computed roc_auc score of: 0.6890875208691574
+2017-09-24 10:24:40,880 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.66      0.68      5347
+          1       0.68      0.72      0.70      5287
+
+avg / total       0.69      0.69      0.69     10634
+
+2017-09-24 10:24:40,880 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.66      0.68      5347
+          1       0.68      0.72      0.70      5287
+
+avg / total       0.69      0.69      0.69     10634
+
+2017-09-24 10:24:40,885 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6966250917094644
+2017-09-24 10:24:40,885 - INFO - When using regressor as an active/inactive classifier, f1 score of: 0.6966250917094644
+2017-09-24 10:35:49,318 - INFO -              precision    recall  f1-score   support
+
+          0       0.65      0.74      0.69      8056
+          1       0.70      0.60      0.65      8056
+
+avg / total       0.68      0.67      0.67     16112
+
+2017-09-24 10:35:49,318 - INFO -              precision    recall  f1-score   support
+
+          0       0.65      0.74      0.69      8056
+          1       0.70      0.60      0.65      8056
+
+avg / total       0.68      0.67      0.67     16112
+
+2017-09-24 10:35:49,318 - INFO -              precision    recall  f1-score   support
+
+          0       0.65      0.74      0.69      8056
+          1       0.70      0.60      0.65      8056
+
+avg / total       0.68      0.67      0.67     16112
+
+2017-09-24 10:35:53,321 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 10:35:53,321 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 10:35:53,321 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 10:35:59,910 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.70      0.69      8056
+          1       0.69      0.66      0.68      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 10:35:59,910 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.70      0.69      8056
+          1       0.69      0.66      0.68      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 10:35:59,910 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.70      0.69      8056
+          1       0.69      0.66      0.68      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 10:36:06,037 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.69      0.69      8055
+          1       0.69      0.70      0.69      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 10:36:06,037 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.69      0.69      8055
+          1       0.69      0.70      0.69      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 10:36:06,037 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.69      0.69      8055
+          1       0.69      0.70      0.69      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 10:47:57,426 - INFO -              precision    recall  f1-score   support
+
+          0       0.65      0.74      0.69      8056
+          1       0.70      0.60      0.65      8056
+
+avg / total       0.68      0.67      0.67     16112
+
+2017-09-24 10:48:01,398 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 10:48:01,426 - INFO - Trying a larger network
+2017-09-24 10:48:07,794 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.70      0.69      8056
+          1       0.69      0.68      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 10:48:13,879 - INFO -              precision    recall  f1-score   support
+
+          0       0.71      0.64      0.67      8055
+          1       0.67      0.74      0.70      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 10:48:41,719 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.67      0.67      0.67     16112
+
+2017-09-24 10:48:41,719 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.67      0.67      0.67     16112
+
+2017-09-24 10:48:52,677 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 10:48:52,677 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 10:48:52,709 - INFO - Trying a larger network
+2017-09-24 10:48:52,709 - INFO - Trying a larger network
+2017-09-24 10:49:12,328 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.68      0.68      8056
+          1       0.68      0.69      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 10:49:12,328 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.68      0.68      8056
+          1       0.68      0.69      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 10:49:48,644 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 10:49:48,644 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 10:49:48,644 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 10:50:00,246 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 10:50:00,246 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 10:50:00,246 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 10:50:00,277 - INFO - Trying a larger network
+2017-09-24 10:50:00,277 - INFO - Trying a larger network
+2017-09-24 10:50:00,277 - INFO - Trying a larger network
+2017-09-24 10:50:19,787 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.67      0.68      8056
+          1       0.68      0.70      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 10:50:19,787 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.67      0.68      8056
+          1       0.68      0.70      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 10:50:19,787 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.67      0.68      8056
+          1       0.68      0.70      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 10:50:37,206 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.67      0.68      8055
+          1       0.68      0.71      0.70      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 10:50:37,206 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.67      0.68      8055
+          1       0.68      0.71      0.70      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 10:50:37,206 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.67      0.68      8055
+          1       0.68      0.71      0.70      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 10:53:28,172 - INFO -              precision    recall  f1-score   support
+
+          0       0.96      0.81      0.88    102127
+          1       0.18      0.53      0.27      8056
+
+avg / total       0.90      0.79      0.83    110183
+
+2017-09-24 10:53:28,172 - INFO -              precision    recall  f1-score   support
+
+          0       0.96      0.81      0.88    102127
+          1       0.18      0.53      0.27      8056
+
+avg / total       0.90      0.79      0.83    110183
+
+2017-09-24 10:53:28,172 - INFO -              precision    recall  f1-score   support
+
+          0       0.96      0.81      0.88    102127
+          1       0.18      0.53      0.27      8056
+
+avg / total       0.90      0.79      0.83    110183
+
+2017-09-24 10:53:28,172 - INFO -              precision    recall  f1-score   support
+
+          0       0.96      0.81      0.88    102127
+          1       0.18      0.53      0.27      8056
+
+avg / total       0.90      0.79      0.83    110183
+
+2017-09-24 10:54:29,317 - INFO -              precision    recall  f1-score   support
+
+          0       0.96      0.82      0.88    102126
+          1       0.19      0.52      0.28      8055
+
+avg / total       0.90      0.80      0.84    110181
+
+2017-09-24 10:54:29,317 - INFO -              precision    recall  f1-score   support
+
+          0       0.96      0.82      0.88    102126
+          1       0.19      0.52      0.28      8055
+
+avg / total       0.90      0.80      0.84    110181
+
+2017-09-24 10:54:29,317 - INFO -              precision    recall  f1-score   support
+
+          0       0.96      0.82      0.88    102126
+          1       0.19      0.52      0.28      8055
+
+avg / total       0.90      0.80      0.84    110181
+
+2017-09-24 10:54:29,317 - INFO -              precision    recall  f1-score   support
+
+          0       0.96      0.82      0.88    102126
+          1       0.19      0.52      0.28      8055
+
+avg / total       0.90      0.80      0.84    110181
+
+2017-09-24 10:54:29,350 - INFO - Trying a larger network
+2017-09-24 10:54:29,350 - INFO - Trying a larger network
+2017-09-24 10:54:29,350 - INFO - Trying a larger network
+2017-09-24 10:54:29,350 - INFO - Trying a larger network
+2017-09-24 10:56:16,166 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.95      0.95    102127
+          1       0.30      0.28      0.29      8056
+
+avg / total       0.90      0.90      0.90    110183
+
+2017-09-24 10:56:16,166 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.95      0.95    102127
+          1       0.30      0.28      0.29      8056
+
+avg / total       0.90      0.90      0.90    110183
+
+2017-09-24 10:56:16,166 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.95      0.95    102127
+          1       0.30      0.28      0.29      8056
+
+avg / total       0.90      0.90      0.90    110183
+
+2017-09-24 10:56:16,166 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.95      0.95    102127
+          1       0.30      0.28      0.29      8056
+
+avg / total       0.90      0.90      0.90    110183
+
+2017-09-24 10:58:03,040 - INFO -              precision    recall  f1-score   support
+
+          0       0.95      0.94      0.94    102126
+          1       0.28      0.32      0.30      8055
+
+avg / total       0.90      0.89      0.89    110181
+
+2017-09-24 10:58:03,040 - INFO -              precision    recall  f1-score   support
+
+          0       0.95      0.94      0.94    102126
+          1       0.28      0.32      0.30      8055
+
+avg / total       0.90      0.89      0.89    110181
+
+2017-09-24 10:58:03,040 - INFO -              precision    recall  f1-score   support
+
+          0       0.95      0.94      0.94    102126
+          1       0.28      0.32      0.30      8055
+
+avg / total       0.90      0.89      0.89    110181
+
+2017-09-24 10:58:03,040 - INFO -              precision    recall  f1-score   support
+
+          0       0.95      0.94      0.94    102126
+          1       0.28      0.32      0.30      8055
+
+avg / total       0.90      0.89      0.89    110181
+
+2017-09-24 13:57:55,668 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:57:55,668 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:57:55,668 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:57:55,668 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:57:55,668 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:57:55,668 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:57:55,668 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:57:55,668 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:59:54,878 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:59:54,878 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:59:54,878 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:59:54,878 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:59:54,878 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:59:54,878 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:59:54,878 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:59:54,878 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 13:59:54,878 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.96    102127
+          1       0.37      0.19      0.25      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 14:00:50,384 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.45      0.14      0.21      8055
+
+avg / total       0.90      0.92      0.91    110181
+
+2017-09-24 14:00:50,384 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.45      0.14      0.21      8055
+
+avg / total       0.90      0.92      0.91    110181
+
+2017-09-24 14:00:50,384 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.45      0.14      0.21      8055
+
+avg / total       0.90      0.92      0.91    110181
+
+2017-09-24 14:00:50,384 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.45      0.14      0.21      8055
+
+avg / total       0.90      0.92      0.91    110181
+
+2017-09-24 14:00:50,384 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.45      0.14      0.21      8055
+
+avg / total       0.90      0.92      0.91    110181
+
+2017-09-24 14:00:50,384 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.45      0.14      0.21      8055
+
+avg / total       0.90      0.92      0.91    110181
+
+2017-09-24 14:00:50,384 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.45      0.14      0.21      8055
+
+avg / total       0.90      0.92      0.91    110181
+
+2017-09-24 14:00:50,384 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.45      0.14      0.21      8055
+
+avg / total       0.90      0.92      0.91    110181
+
+2017-09-24 14:00:50,384 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.45      0.14      0.21      8055
+
+avg / total       0.90      0.92      0.91    110181
+
+2017-09-24 14:00:50,419 - INFO - Trying a larger network
+2017-09-24 14:00:50,419 - INFO - Trying a larger network
+2017-09-24 14:00:50,419 - INFO - Trying a larger network
+2017-09-24 14:00:50,419 - INFO - Trying a larger network
+2017-09-24 14:00:50,419 - INFO - Trying a larger network
+2017-09-24 14:00:50,419 - INFO - Trying a larger network
+2017-09-24 14:00:50,419 - INFO - Trying a larger network
+2017-09-24 14:00:50,419 - INFO - Trying a larger network
+2017-09-24 14:00:50,419 - INFO - Trying a larger network
+2017-09-24 14:02:31,924 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102127
+          1       0.38      0.25      0.30      8056
+
+avg / total       0.90      0.92      0.91    110183
+
+2017-09-24 14:02:31,924 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102127
+          1       0.38      0.25      0.30      8056
+
+avg / total       0.90      0.92      0.91    110183
+
+2017-09-24 14:02:31,924 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102127
+          1       0.38      0.25      0.30      8056
+
+avg / total       0.90      0.92      0.91    110183
+
+2017-09-24 14:02:31,924 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102127
+          1       0.38      0.25      0.30      8056
+
+avg / total       0.90      0.92      0.91    110183
+
+2017-09-24 14:02:31,924 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102127
+          1       0.38      0.25      0.30      8056
+
+avg / total       0.90      0.92      0.91    110183
+
+2017-09-24 14:02:31,924 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102127
+          1       0.38      0.25      0.30      8056
+
+avg / total       0.90      0.92      0.91    110183
+
+2017-09-24 14:02:31,924 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102127
+          1       0.38      0.25      0.30      8056
+
+avg / total       0.90      0.92      0.91    110183
+
+2017-09-24 14:02:31,924 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102127
+          1       0.38      0.25      0.30      8056
+
+avg / total       0.90      0.92      0.91    110183
+
+2017-09-24 14:02:31,924 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102127
+          1       0.38      0.25      0.30      8056
+
+avg / total       0.90      0.92      0.91    110183
+
+2017-09-24 14:04:13,962 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102126
+          1       0.37      0.24      0.29      8055
+
+avg / total       0.90      0.91      0.91    110181
+
+2017-09-24 14:04:13,962 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102126
+          1       0.37      0.24      0.29      8055
+
+avg / total       0.90      0.91      0.91    110181
+
+2017-09-24 14:04:13,962 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102126
+          1       0.37      0.24      0.29      8055
+
+avg / total       0.90      0.91      0.91    110181
+
+2017-09-24 14:04:13,962 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102126
+          1       0.37      0.24      0.29      8055
+
+avg / total       0.90      0.91      0.91    110181
+
+2017-09-24 14:04:13,962 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102126
+          1       0.37      0.24      0.29      8055
+
+avg / total       0.90      0.91      0.91    110181
+
+2017-09-24 14:04:13,962 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102126
+          1       0.37      0.24      0.29      8055
+
+avg / total       0.90      0.91      0.91    110181
+
+2017-09-24 14:04:13,962 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102126
+          1       0.37      0.24      0.29      8055
+
+avg / total       0.90      0.91      0.91    110181
+
+2017-09-24 14:04:13,962 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102126
+          1       0.37      0.24      0.29      8055
+
+avg / total       0.90      0.91      0.91    110181
+
+2017-09-24 14:04:13,962 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.97      0.95    102126
+          1       0.37      0.24      0.29      8055
+
+avg / total       0.90      0.91      0.91    110181
+
+2017-09-24 14:05:12,082 - INFO -              precision    recall  f1-score   support
+
+          0       0.93      0.99      0.96    102127
+          1       0.44      0.10      0.17      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 14:05:12,082 - INFO -              precision    recall  f1-score   support
+
+          0       0.93      0.99      0.96    102127
+          1       0.44      0.10      0.17      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 14:05:12,082 - INFO -              precision    recall  f1-score   support
+
+          0       0.93      0.99      0.96    102127
+          1       0.44      0.10      0.17      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 14:05:12,082 - INFO -              precision    recall  f1-score   support
+
+          0       0.93      0.99      0.96    102127
+          1       0.44      0.10      0.17      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 14:05:12,082 - INFO -              precision    recall  f1-score   support
+
+          0       0.93      0.99      0.96    102127
+          1       0.44      0.10      0.17      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 14:05:12,082 - INFO -              precision    recall  f1-score   support
+
+          0       0.93      0.99      0.96    102127
+          1       0.44      0.10      0.17      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 14:05:12,082 - INFO -              precision    recall  f1-score   support
+
+          0       0.93      0.99      0.96    102127
+          1       0.44      0.10      0.17      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 14:05:12,082 - INFO -              precision    recall  f1-score   support
+
+          0       0.93      0.99      0.96    102127
+          1       0.44      0.10      0.17      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 14:05:12,082 - INFO -              precision    recall  f1-score   support
+
+          0       0.93      0.99      0.96    102127
+          1       0.44      0.10      0.17      8056
+
+avg / total       0.90      0.92      0.90    110183
+
+2017-09-24 14:06:06,719 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.44      0.13      0.20      8055
+
+avg / total       0.90      0.92      0.90    110181
+
+2017-09-24 14:06:06,719 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.44      0.13      0.20      8055
+
+avg / total       0.90      0.92      0.90    110181
+
+2017-09-24 14:06:06,719 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.44      0.13      0.20      8055
+
+avg / total       0.90      0.92      0.90    110181
+
+2017-09-24 14:06:06,719 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.44      0.13      0.20      8055
+
+avg / total       0.90      0.92      0.90    110181
+
+2017-09-24 14:06:06,719 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.44      0.13      0.20      8055
+
+avg / total       0.90      0.92      0.90    110181
+
+2017-09-24 14:06:06,719 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.44      0.13      0.20      8055
+
+avg / total       0.90      0.92      0.90    110181
+
+2017-09-24 14:06:06,719 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.44      0.13      0.20      8055
+
+avg / total       0.90      0.92      0.90    110181
+
+2017-09-24 14:06:06,719 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.44      0.13      0.20      8055
+
+avg / total       0.90      0.92      0.90    110181
+
+2017-09-24 14:06:06,719 - INFO -              precision    recall  f1-score   support
+
+          0       0.94      0.99      0.96    102126
+          1       0.44      0.13      0.20      8055
+
+avg / total       0.90      0.92      0.90    110181
+
+2017-09-24 14:09:52,107 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:09:52,107 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:09:52,107 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:09:52,107 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:09:52,107 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:09:52,107 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:09:52,107 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:09:52,107 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:09:52,107 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:09:52,107 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:10:01,599 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 14:10:01,599 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 14:10:01,599 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 14:10:01,599 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 14:10:01,599 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 14:10:01,599 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 14:10:01,599 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 14:10:01,599 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 14:10:01,599 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 14:10:01,599 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.67      0.67      0.67     16110
+
+2017-09-24 14:10:01,634 - INFO - Trying a larger network
+2017-09-24 14:10:01,634 - INFO - Trying a larger network
+2017-09-24 14:10:01,634 - INFO - Trying a larger network
+2017-09-24 14:10:01,634 - INFO - Trying a larger network
+2017-09-24 14:10:01,634 - INFO - Trying a larger network
+2017-09-24 14:10:01,634 - INFO - Trying a larger network
+2017-09-24 14:10:01,634 - INFO - Trying a larger network
+2017-09-24 14:10:01,634 - INFO - Trying a larger network
+2017-09-24 14:10:01,634 - INFO - Trying a larger network
+2017-09-24 14:10:01,634 - INFO - Trying a larger network
+2017-09-24 14:10:18,573 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.63      0.66      8056
+          1       0.66      0.73      0.70      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 14:10:18,573 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.63      0.66      8056
+          1       0.66      0.73      0.70      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 14:10:18,573 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.63      0.66      8056
+          1       0.66      0.73      0.70      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 14:10:18,573 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.63      0.66      8056
+          1       0.66      0.73      0.70      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 14:10:18,573 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.63      0.66      8056
+          1       0.66      0.73      0.70      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 14:10:18,573 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.63      0.66      8056
+          1       0.66      0.73      0.70      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 14:10:18,573 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.63      0.66      8056
+          1       0.66      0.73      0.70      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 14:10:18,573 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.63      0.66      8056
+          1       0.66      0.73      0.70      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 14:10:18,573 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.63      0.66      8056
+          1       0.66      0.73      0.70      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 14:10:18,573 - INFO -              precision    recall  f1-score   support
+
+          0       0.70      0.63      0.66      8056
+          1       0.66      0.73      0.70      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 14:10:35,593 - INFO -              precision    recall  f1-score   support
+
+          0       0.66      0.77      0.71      8055
+          1       0.72      0.60      0.65      8055
+
+avg / total       0.69      0.69      0.68     16110
+
+2017-09-24 14:10:35,593 - INFO -              precision    recall  f1-score   support
+
+          0       0.66      0.77      0.71      8055
+          1       0.72      0.60      0.65      8055
+
+avg / total       0.69      0.69      0.68     16110
+
+2017-09-24 14:10:35,593 - INFO -              precision    recall  f1-score   support
+
+          0       0.66      0.77      0.71      8055
+          1       0.72      0.60      0.65      8055
+
+avg / total       0.69      0.69      0.68     16110
+
+2017-09-24 14:10:35,593 - INFO -              precision    recall  f1-score   support
+
+          0       0.66      0.77      0.71      8055
+          1       0.72      0.60      0.65      8055
+
+avg / total       0.69      0.69      0.68     16110
+
+2017-09-24 14:10:35,593 - INFO -              precision    recall  f1-score   support
+
+          0       0.66      0.77      0.71      8055
+          1       0.72      0.60      0.65      8055
+
+avg / total       0.69      0.69      0.68     16110
+
+2017-09-24 14:10:35,593 - INFO -              precision    recall  f1-score   support
+
+          0       0.66      0.77      0.71      8055
+          1       0.72      0.60      0.65      8055
+
+avg / total       0.69      0.69      0.68     16110
+
+2017-09-24 14:10:35,593 - INFO -              precision    recall  f1-score   support
+
+          0       0.66      0.77      0.71      8055
+          1       0.72      0.60      0.65      8055
+
+avg / total       0.69      0.69      0.68     16110
+
+2017-09-24 14:10:35,593 - INFO -              precision    recall  f1-score   support
+
+          0       0.66      0.77      0.71      8055
+          1       0.72      0.60      0.65      8055
+
+avg / total       0.69      0.69      0.68     16110
+
+2017-09-24 14:10:35,593 - INFO -              precision    recall  f1-score   support
+
+          0       0.66      0.77      0.71      8055
+          1       0.72      0.60      0.65      8055
+
+avg / total       0.69      0.69      0.68     16110
+
+2017-09-24 14:10:35,593 - INFO -              precision    recall  f1-score   support
+
+          0       0.66      0.77      0.71      8055
+          1       0.72      0.60      0.65      8055
+
+avg / total       0.69      0.69      0.68     16110
+
+2017-09-24 14:13:06,417 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:13:06,417 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:13:06,417 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:13:06,417 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:13:06,417 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:13:06,417 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:13:06,417 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:13:06,417 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:13:06,417 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:13:06,417 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:13:06,417 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:13:16,682 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 14:13:16,682 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 14:13:16,682 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 14:13:16,682 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 14:13:16,682 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 14:13:16,682 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 14:13:16,682 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 14:13:16,682 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 14:13:16,682 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 14:13:16,682 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 14:13:16,682 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 14:13:16,717 - INFO - Trying a larger network
+2017-09-24 14:13:16,717 - INFO - Trying a larger network
+2017-09-24 14:13:16,717 - INFO - Trying a larger network
+2017-09-24 14:13:16,717 - INFO - Trying a larger network
+2017-09-24 14:13:16,717 - INFO - Trying a larger network
+2017-09-24 14:13:16,717 - INFO - Trying a larger network
+2017-09-24 14:13:16,717 - INFO - Trying a larger network
+2017-09-24 14:13:16,717 - INFO - Trying a larger network
+2017-09-24 14:13:16,717 - INFO - Trying a larger network
+2017-09-24 14:13:16,717 - INFO - Trying a larger network
+2017-09-24 14:13:16,717 - INFO - Trying a larger network
+2017-09-24 14:13:33,964 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.68      0.69      8056
+          1       0.69      0.69      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 14:13:33,964 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.68      0.69      8056
+          1       0.69      0.69      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 14:13:33,964 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.68      0.69      8056
+          1       0.69      0.69      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 14:13:33,964 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.68      0.69      8056
+          1       0.69      0.69      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 14:13:33,964 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.68      0.69      8056
+          1       0.69      0.69      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 14:13:33,964 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.68      0.69      8056
+          1       0.69      0.69      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 14:13:33,964 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.68      0.69      8056
+          1       0.69      0.69      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 14:13:33,964 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.68      0.69      8056
+          1       0.69      0.69      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 14:13:33,964 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.68      0.69      8056
+          1       0.69      0.69      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 14:13:33,964 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.68      0.69      8056
+          1       0.69      0.69      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 14:13:33,964 - INFO -              precision    recall  f1-score   support
+
+          0       0.69      0.68      0.69      8056
+          1       0.69      0.69      0.69      8056
+
+avg / total       0.69      0.69      0.69     16112
+
+2017-09-24 14:13:51,355 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.71      0.69      8055
+          1       0.70      0.66      0.68      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 14:13:51,355 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.71      0.69      8055
+          1       0.70      0.66      0.68      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 14:13:51,355 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.71      0.69      8055
+          1       0.70      0.66      0.68      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 14:13:51,355 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.71      0.69      8055
+          1       0.70      0.66      0.68      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 14:13:51,355 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.71      0.69      8055
+          1       0.70      0.66      0.68      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 14:13:51,355 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.71      0.69      8055
+          1       0.70      0.66      0.68      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 14:13:51,355 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.71      0.69      8055
+          1       0.70      0.66      0.68      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 14:13:51,355 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.71      0.69      8055
+          1       0.70      0.66      0.68      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 14:13:51,355 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.71      0.69      8055
+          1       0.70      0.66      0.68      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 14:13:51,355 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.71      0.69      8055
+          1       0.70      0.66      0.68      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 14:13:51,355 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.71      0.69      8055
+          1       0.70      0.66      0.68      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 14:23:31,958 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.65      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 14:23:40,893 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
+2017-09-24 14:23:40,921 - INFO - Trying a larger network
+2017-09-24 14:23:57,073 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.71      0.69      8056
+          1       0.69      0.66      0.67      8056
+
+avg / total       0.68      0.68      0.68     16112
+
+2017-09-24 14:24:12,859 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.73      0.70      8055
+          1       0.71      0.64      0.67      8055
+
+avg / total       0.69      0.69      0.69     16110
+
+2017-09-24 20:51:20,850 - INFO -              precision    recall  f1-score   support
+
+          0       0.67      0.66      0.66      8056
+          1       0.66      0.67      0.67      8056
+
+avg / total       0.66      0.66      0.66     16112
+
+2017-09-24 20:51:29,496 - INFO -              precision    recall  f1-score   support
+
+          0       0.68      0.66      0.67      8055
+          1       0.67      0.69      0.68      8055
+
+avg / total       0.68      0.68      0.68     16110
+
