@@ -13,7 +13,12 @@ conda install -y -q -c glemaitre imbalanced-learn
 conda install -y -q -c conda-forge keras
 conda install -y -q -c anaconda tensorflow-gpu
 
+# Uncomment if you want to try using hyperopt
+#cd ~
+#git clone https://github.com/hyperopt/hyperopt-sklearn.git
+#cd hyperopt-sklearn
+#pip install -e .
+
 cd ~
-git clone https://github.com/hyperopt/hyperopt-sklearn.git
-cd hyperopt-sklearn
-pip install -e .
+git clone --recursive https://github.com/dmlc/xgboost
+cd xgboost; make -j4

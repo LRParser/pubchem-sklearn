@@ -1,6 +1,6 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Project
-Joseph Heenan  
+Joseph Heenan
 September 19, 2017
 
 ## I. Definition
@@ -12,36 +12,33 @@ the problem of 'virtual drug screening' in computational chemistry. This is the 
 
 Bioassays produce much of the data used by computational chemists; they are a form of high-throughput experiment in which many small molecule compounds are tested against a target biological system to determine which of them exhibits ‘bioactivity’ in that system. The definition of ‘bioactivity’ may vary from assay to assay but often means increased or decreased expression of a particular gene or protein.
 
-There is a wealth of bioassay information hosted by the US National Institutes of Health at their [PubChem](https://pubchem.ncbi.nlm.nih.gov) site. As of the time this report was written, the Bioassay database at PubChem "...held over one million records holding 230,000,000 bioactivity outcomes deposited by over 80 organizations" (Wang, Yanli et al. 2017). Clearly there is a wealth of well-labelled data available at this site. 
+There is a wealth of bioassay information hosted by the US National Institutes of Health at their [PubChem](https://pubchem.ncbi.nlm.nih.gov) site. As of the time this report was written, the Bioassay database at PubChem "...held over one million records holding 230,000,000 bioactivity outcomes deposited by over 80 organizations" (Wang, Yanli et al. 2017).
 
-For this particular project, we use the data that is available for Bioassay 1030, which looks at inhibitors for the gene ALDH1A1, a gene that is implicated in metabolic disorders, several cancers, and Parkinson's Disease. The source data is available [here](https://pubchem.ncbi.nlm.nih.gov/bioassay/1030). We utilize here the assay data table as well as a table with canonical module representations (referred to as SMILES format) as the base data for this project.
+For this particular project we use the data that is available for Bioassay 1030, which looks at inhibitors for the gene ALDH1A1, a gene that is implicated in metabolic disorders, several cancers, and Parkinson's Disease (Anderson et al. 2001). Source data and medical background info is available [here](https://pubchem.ncbi.nlm.nih.gov/bioassay/1030). We utilize here the assay data table as well as a table with canonical module representations (referred to as 'SMILES' strings) as the base data for this project.
 
 ### Problem Statement
 
-At a high level the problem we want to solve is that of drug discovery; that is, helping to discover new small-module medicines. More specifically, we want to create a binary classifier that, when given a sample module in an appropriately featurized format, will predict whether or not it will be actice in inhibiting ALDH1A1. This predictor should be both sensitive and specific; we want to neither miss potential new medicies, nor do we want to spend time lab testing 'false positive' predictions that turn out not to be bioactive. This binary classifier will allow us to implement a type of 'virtual drug screening' where we can test a large library of modules which we may not yet be able to physically produce and test, in order to focus and steer future confirmatory laboratory testing.
+At a high level the problem we want to solve is that of drug discovery; that is, helping to discover new small-module medicines. More specifically, we want to create a binary classifier that, when given a sample module in an appropriately featurized format, will predict whether or not it will be active in inhibiting ALDH1A1. This predictor should be both sensitive and specific; we want to neither miss potential new medicies, nor do we want to spend time lab testing 'false positive' predictions that turn out not to be bioactive. This binary classifier will allow us to implement a type of 'virtual drug screening' where we can test a large library of modules which we may not yet be able to physically produce and test, in order to focus and steer future confirmatory laboratory testing.
 
 The strategy I will use to attempt to find a sensitive and specific binary classifier is to experiment with several well-known machine learning algorithms from the packages of Scikit-Learn and Keras. I plan to take the following steps:
 
-
-1. Ensure source data is properly merged loaded, using the Pandas library
+1. Ensure source data is properly merged and loaded, using the Pandas library
 2. Ensure that source data is balanced (as per reviewer suggestions). Because over 90% of the bioactivity results are 'False' (not bioactive) a naive classifier could simply preduct 'False' and achieve high accuracy. I plan to use the imbalanced-learn package for sklearn to create a balanced dataset to help avoid this problem.
-3. Ensure that proper mevaluation metrics are selected; I intend to use the binary accuracy and F1 score metrics to compare different classifiers because this will help to ensure that sensitivity and specificity are both considered during evaluation
+3. Ensure that proper mevaluation metrics are selected; I intend to use AUCROC score (area under curve for receiver operating characteristic curve) to compare different classifiers because this will help to ensure that both sensitivity and specificity are both considered during evaluation
 4. Experiment with several different classifiers, specifically
 	a) Decision Trees (sklearn)
 	b) Random Forests (sklearn)
 	c) Fully-Connected Deep Neural Networks (keras)
-5. Experiment with several different types of featurization for the above classifiers, such as Morgan fingerprints of different sizes, as well as trying to learn on the SMILES representation directly.
-6. Experiment with optimization of model hyperparameters using a validation set
 
-Because the bioassay 1030 presents a fully labelled dataset of 220,402 compounds tested, we will hold out a section of test data in order to evaluate the performance of the binary classifier. 
+Because the bioassay 1030 presents a fully labelled dataset of 220,402 compounds tested, we will hold out a section of test data in order to evaluate the performance of the binary classifier.
 
 I anticipate that the best solution to this problem may be found in the application of a deep learning algorithm, as these have shown best-in-class performance on several binary classification problems in recent years, e.g., the Cats vs Dogs problem on Kaggle linked [here](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition).
 
-In this section, you will want to clearly define the problem that you are trying to solve, including the strategy (outline of tasks) you will use to achieve the desired solution. You should also thoroughly discuss what the intended solution will be for this problem. Questions to ask yourself when writing this section.
-
 ### Metrics
 
-I plan to examine the average F1 score across the two prediction class (True, e.g. predicted bioactive, and False, e.g. predicted not bioactive) for each of the models. Using this will provide an objective way to compare the performance of different models, while appropriately penalizing both "missed predictions" and "wrong predictions".
+I plan to look at the metric of the average AUCROC score across two stratified folds of training for each of the models. This score (also sometimes referred to as area under ROC, for area under receiver operating curve) can be interpreted as providing "the probability of correctly ranking a (normal, abnormal) pair" (Hanley et al 1982). In this case it can be interpreted as "the probability of correctly ranking an (inactive, active) pair" of compound test results in the bioassay 1030.
+
+Using this will provide an objective way to compare the performance of different models, while appropriately penalizing both "missed predictions" and "wrong predictions". This score also has the advantage that it is referenced in the MoleculeNet benchmark paper (Wu et al 2017), which provides a means of high-level comparison.
 
 
 ## II. Analysis
@@ -62,11 +59,18 @@ That is, we have 3 unique values for activity in the dataset, of which 'Inactive
 1.  How do we engineer these three outcomes to fit in the desired binary classification scheme. Do we wish to drop the inconclusive results, or do we instead count them as 'inactive'? And:
 2.  How do we handle the fact that the outcomes are highly imbalanced, e.g. the 'inactive' class is over 7 times larger than the 'active' class?
 
-Our tentative plan is to coalese the 'Inactive' and 'Inconclusive' values, and to under-sample the 'inactive' class to obtain even representation of 'active' and 'inactive' when training, but we will return to this decision in the "featurization" step of our planned strategy later to determine whether this is optimal.
+To answer the first point: our tentative plan is to drop all of the 'inconclusive' values; this reduces the degree to which the dataset it imbalanced. We choose this class to drop based on the the assumption that it contains the least amount of 'signal'. In the description page for this assay on PubChem, it notes that compounds that have a PUBCHEM_ACTIVITY_SCORE of 0 are classified as 'inactive'; scores of 40 and above are classified as 'active'; and all other scores are classified as 'inconclusive'.
 
-In terms of the fingerprints themselves, there are several domain-specific parameters which can be used to tune them; specifically the size of the bit array as well as the specific molecular features that should be used can be considered can be specified (such as chiral form and other domain-specific features). Given that prediction of activity against ALDH1A1 is still only partially-understood, we hope that tuning these parameters may result in a more robust model for future studies.
+To answer the second point: We plan to explore both under-and over-sampling using the imblearn python package to obtain even representation of 'active' and 'inactive' when training, and compare the results between under-sampling and over-sampling. We will simply use random over- and under-sampling as more advanced interpolation methods such as SMOTE cannot be computed in feasible time due to memory requirements exceeding available infrastructure.
+
+We will use only 1 feature for training - that is the 2048-bit morgan fingerprint computed from the SMILES string for each compound. The featurization process converts the "SMILES" strings in the source CSV dataset into "Morgan fingerprints" (these are often also referred to as "circular fingerprints"). Each fingerprint is a sparse 2048-bit array that is computed for each molecule. Each bit in the bit array provides information as to the presence of a certain substructure within the overall molecule; a detailed overview of the technique used to calculate these fingerprints is beyond the scope of this paper, however an overview is available [here](http://www.daylight.com/dayhtml/doc/theory/theory.finger.html)
+
+After featurization, we can conceptualize the dataset used for training as follows:
+
+
 
 One other point of note is that the labelled dataset does contain activity scores for each compound in the form of a PUBCHEM_ACTIVITY_SCORE column. Active compounds are those with scores between 40 and 100, Inconclusive have scores between 40 and 1, and Inactive compounds have scores of 0. We also considered rephrasing the problem from one of binary classification (Active vs Inactive) to one of Linear Regression (predicting an activity score, and from that deriving a classification).
+
 
 Regarding related datasets, the MoleculeNet benchmark [paper](https://arxiv.org/abs/1703.00564) deserves particular note, as it includes this bioassay as part of its list of 128 PubChem assay datasets that it analyzes. However the results are not directly comparable, as MoleculeNet looks at models that learn joint features via making a multi-task/multi-class prediction (e.g., for 1 SMILES string, it will predict bioactive or not against 128 different assay targets). Nevertheless it is important to reference this paper, as well as the 128-class [dataset](https://github.com/deepchem/deepchem/blob/master/datasets/pcba.csv.gz), as providing an important reference point for this work.
 
@@ -192,6 +196,8 @@ I do think that an even better solution exists; likely this solution will also l
 
 ### Citations
 
+Anderson, David W., et al. "Functional significance of aldehyde dehydrogenase ALDH1A1 to the nigrostriatal dopamine system." Brain research 1408 (2011): 81-87.
+Hanley, James A., and Barbara J. McNeil. "The meaning and use of the area under a receiver operating characteristic (ROC) curve." Radiology 143.1 (1982): 29-36
 Ramsunder, Bharath et. al. "Massively Multitask Networks for Drug Discovery". arXiv:1502.02072
 Wang, Yanli et al. “PubChem BioAssay: 2017 Update.” Nucleic Acids Research 45.Database issue (2017): D955–D963. PMC. Web. 19 Sept. 2017.
 Wu, Zhenquin et al. "MoleculeNet: A Benchmark for Molecular Machine Learning". arXiv:1703.00564
