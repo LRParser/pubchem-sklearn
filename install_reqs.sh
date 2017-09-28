@@ -19,6 +19,6 @@ conda install -y -q -c anaconda tensorflow-gpu
 #cd hyperopt-sklearn
 #pip install -e .
 
-cd ~
-git clone --recursive https://github.com/dmlc/xgboost
-cd xgboost; make -j4
+#cd ~
+#git clone --recursive https://github.com/dmlc/xgboost
+#cd xgboost; make -j4

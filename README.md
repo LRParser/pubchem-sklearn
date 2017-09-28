@@ -27,4 +27,4 @@ Load in the browser and run all cells of the `pubchem_bioassay_sklearn.ipynb` fi
 
 Note: You may require approx 64 GB of RAM to test the 
 
-Run this file, then the `pubchem_dnn.ipynb` as well as the `pubchem_cnn.ipynb` files. You can additionally run `pub
+Run this file, then the `pubchem_dnn.ipynb` as well as the `pubchem_exploratory_visualization.ipynb` files.
